@@ -1,0 +1,2313 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Recipe Press 0.9.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/recipe-press\n"
+"POT-Creation-Date: 2011-03-07 19:53:32+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Shane Lambert <shane@grandslambert.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: PORTUGAL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: classes/initialize.php:80
+#, fuzzy
+msgid "RecipePress requires an update."
+msgstr "Recipe Press &raquo; Lista"
+
+#: classes/initialize.php:80
+msgid "You must <a href=\"%1$s\">run the update tool</a> for it to work."
+msgstr ""
+
+#: classes/initialize.php:87
+#, fuzzy
+msgid "RecipePress Upgrade"
+msgstr "Recipe Press"
+
+#: classes/initialize.php:100
+msgid "Update to version 2.0"
+msgstr ""
+
+#: classes/initialize.php:107
+msgid "Creating new taxonomy for ingredient sizes and populating data."
+msgstr ""
+
+#: classes/initialize.php:137
+msgid "Creating new taxonomy for serving sizes and populating data."
+msgstr ""
+
+#: classes/initialize.php:166
+msgid "Creating new taxonomy for ingredients and populating data."
+msgstr ""
+
+#: classes/initialize.php:205
+msgid "Done Updating."
+msgstr ""
+
+#: classes/initialize.php:223
+msgid "Add New"
+msgstr ""
+
+#: classes/initialize.php:224
+msgid "Add New %1$s"
+msgstr ""
+
+#: classes/initialize.php:225
+#: classes/initialize.php:618
+#, fuzzy
+msgid "Edit %1$s"
+msgstr "Editar"
+
+#: classes/initialize.php:226
+#: templates/recipe-single.php:107
+#: themes/recipe-press/single-recipe.php:109
+#: themes/recipe-press/recipe-form.php:26
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/initialize.php:227
+#: classes/initialize.php:621
+msgid "New %1$s"
+msgstr ""
+
+#: classes/initialize.php:228
+#: classes/initialize.php:232
+#, fuzzy
+msgid "View %1$s"
+msgstr "Visualizações"
+
+#: classes/initialize.php:229
+#: classes/initialize.php:614
+msgid "Search %1$s"
+msgstr ""
+
+#: classes/initialize.php:230
+msgid "No %1$s found"
+msgstr ""
+
+#: classes/initialize.php:231
+msgid "No %1$s found in Trash"
+msgstr ""
+
+#: classes/initialize.php:233
+#: classes/initialize.php:617
+#, fuzzy
+msgid "Parent %1$s"
+msgstr "Pai"
+
+#: classes/initialize.php:234
+#, fuzzy
+msgid "Parent %1$s:"
+msgstr "Pai"
+
+#: classes/initialize.php:325
+msgid "Warning: The site administrator has not set a page to load the recipe box on."
+msgstr ""
+
+#: classes/initialize.php:364
+#: classes/initialize.php:741
+#: classes/initialize.php:757
+#: classes/initialize.php:808
+#: classes/administration.php:116
+#: classes/recipe-press-core.php:209
+#: classes/shortcodes.php:240
+#: templates/recipe-single.php:78
+#: templates/print/sheet-8x11.php:44
+#: templates/print/card-3x5.php:45
+#: templates/print/card-4x6.php:44
+#: widgets/taxonomy-widget.php:164
+#: themes/recipe-press/single-recipe.php:80
+#: includes/settings/taxonomies-options.php:36
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#: classes/initialize.php:466
+#, fuzzy
+msgid "Recipe Ingredients"
+msgstr "Ingredientes"
+
+#: classes/initialize.php:615
+msgid "Popular %1$s"
+msgstr ""
+
+#: classes/initialize.php:616
+#: includes/settings/administration-options.php:42
+msgid "All %1$s"
+msgstr ""
+
+#: classes/initialize.php:619
+msgid "Update %1$s"
+msgstr ""
+
+#: classes/initialize.php:620
+msgid "Add %1$s"
+msgstr ""
+
+#: classes/initialize.php:622
+msgid "Add or remove %1$s"
+msgstr ""
+
+#: classes/initialize.php:623
+msgid "Choose from the most used %1$s"
+msgstr ""
+
+#: classes/initialize.php:671
+#: classes/initialize.php:687
+#, fuzzy
+msgid "Sizes"
+msgstr "Unidade"
+
+#: classes/initialize.php:672
+#: includes/ingredient-form.php:34
+msgid "Size"
+msgstr "Unidade"
+
+#: classes/initialize.php:673
+msgid "Search Sizes"
+msgstr ""
+
+#: classes/initialize.php:674
+msgid "Popular Sizes"
+msgstr ""
+
+#: classes/initialize.php:675
+#: includes/settings/administration-options.php:51
+#, fuzzy
+msgid "All Sizes"
+msgstr "Unidade"
+
+#: classes/initialize.php:676
+#, fuzzy
+msgid "Parent Size"
+msgstr "Pai"
+
+#: classes/initialize.php:677
+#, fuzzy
+msgid "Edit Size"
+msgstr "Editar receita"
+
+#: classes/initialize.php:678
+#, fuzzy
+msgid "Update Size"
+msgstr "Actualizar comentário"
+
+#: classes/initialize.php:679
+#: includes/settings/image-options.php:82
+#, fuzzy
+msgid "Add Size"
+msgstr "Adiconar Receita"
+
+#: classes/initialize.php:680
+#, fuzzy
+msgid "New Size"
+msgstr "Unidade"
+
+#: classes/initialize.php:681
+msgid "Add or remove Sizes"
+msgstr ""
+
+#: classes/initialize.php:682
+msgid "Choose from the most used Sizes"
+msgstr ""
+
+#: classes/initialize.php:705
+#: classes/initialize.php:721
+#, fuzzy
+msgid "Serving Sizes"
+msgstr "Porções"
+
+#: classes/initialize.php:706
+#, fuzzy
+msgid "Serving Size"
+msgstr "Porções"
+
+#: classes/initialize.php:707
+msgid "Search Serving Sizes"
+msgstr ""
+
+#: classes/initialize.php:708
+msgid "Popular Serving Sizes"
+msgstr ""
+
+#: classes/initialize.php:709
+#: includes/settings/administration-options.php:58
+#, fuzzy
+msgid "All Serving Sizes"
+msgstr "Porções"
+
+#: classes/initialize.php:710
+msgid "Parent Serving Size"
+msgstr ""
+
+#: classes/initialize.php:711
+msgid "Edit Serving Size"
+msgstr ""
+
+#: classes/initialize.php:712
+msgid "Update Serving Size"
+msgstr ""
+
+#: classes/initialize.php:713
+msgid "Add Serving Size"
+msgstr ""
+
+#: classes/initialize.php:714
+msgid "New Serving Size"
+msgstr ""
+
+#: classes/initialize.php:715
+msgid "Add or remove Serving Sizes"
+msgstr ""
+
+#: classes/initialize.php:716
+msgid "Choose from the most used Serving Sizes"
+msgstr ""
+
+#: classes/initialize.php:742
+#: includes/ingredient-form.php:35
+msgid "Ingredient"
+msgstr "Ingrediente"
+
+#: classes/initialize.php:743
+#, fuzzy
+msgid "Search Ingredients"
+msgstr "Ingredientes"
+
+#: classes/initialize.php:744
+#, fuzzy
+msgid "Popular Ingredients"
+msgstr "Ingredientes"
+
+#: classes/initialize.php:745
+#: includes/settings/administration-options.php:64
+#, fuzzy
+msgid "All Ingredients"
+msgstr "Ingredientes"
+
+#: classes/initialize.php:746
+#, fuzzy
+msgid "Parent Ingredient"
+msgstr "Ingrediente"
+
+#: classes/initialize.php:747
+#, fuzzy
+msgid "Edit Ingredient"
+msgstr "Ingrediente"
+
+#: classes/initialize.php:748
+#, fuzzy
+msgid "Update Ingredient"
+msgstr "Ingrediente"
+
+#: classes/initialize.php:749
+#: includes/ingredient-form.php:178
+#, fuzzy
+msgid "Add Ingredient"
+msgstr "Ingrediente"
+
+#: classes/initialize.php:750
+#, fuzzy
+msgid "New Ingredient"
+msgstr "Ingrediente"
+
+#: classes/initialize.php:751
+#, fuzzy
+msgid "Add or remove Ingredients"
+msgstr "Adicionar outro ingrediente"
+
+#: classes/initialize.php:752
+msgid "Choose from the most used Ingredients"
+msgstr ""
+
+#: classes/initialize.php:809
+msgid "Details"
+msgstr "Detalhes"
+
+#: classes/initialize.php:813
+#, fuzzy
+msgid "Nutrients"
+msgstr "Ingredientes"
+
+#. translators: Message displayed when the contributors list cannot be
+#. accessed.
+#: classes/credits.php:37
+msgid "There was an error getting the list. Try again later."
+msgstr "Houve um erro ao obter a lista. Tente novamente mais tarde."
+
+#: classes/credits.php:58
+msgid "Contributed: "
+msgstr "Colaboradores:"
+
+#: classes/credits.php:94
+#: includes/contributors.php:19
+msgid "Contributors"
+msgstr "Colaboradores"
+
+#: classes/credits.php:95
+#: includes/contributors.php:20
+#, fuzzy
+msgid "This page includes a list of RecipePress users who have contributed time or money to the development of this plugin."
+msgstr "Esta página inclui uma lista de utilizadores de Recipe Press que contribuíram com tempo ou dinheiro para o desenvolvimento deste plugin."
+
+#: classes/credits.php:99
+#: includes/contributors.php:24
+msgid "Major Contributors"
+msgstr "Principais Colaboradores"
+
+#: classes/credits.php:103
+#: includes/contributors.php:28
+msgid "Additional Contributors"
+msgstr "Colaboradores Adicionais"
+
+#: classes/recipe-box.php:51
+msgid "%1$s is already listed in your recipe-box."
+msgstr ""
+
+#: classes/recipe-box.php:54
+msgid "%1$s has been added to your recipe-box."
+msgstr ""
+
+#: classes/recipe-box.php:87
+#, fuzzy
+msgid "Recipe successfully removed from "
+msgstr "\"%s\" receita removida com sucesso."
+
+#: classes/administration.php:71
+#: classes/recipe-press-core.php:70
+#, fuzzy
+msgid "Recipe"
+msgid_plural "Recipes"
+msgstr[0] "Receita"
+msgstr[1] "Receita"
+
+#: classes/administration.php:83
+#, fuzzy
+msgid "Recipe Pending"
+msgid_plural "Recipes Pending"
+msgstr[0] "Receitas pendentes de revisão"
+msgstr[1] "Receitas pendentes de revisão"
+
+#: classes/administration.php:104
+#, fuzzy
+msgid "Image"
+msgstr "Ficheiro de Imagem"
+
+#: classes/administration.php:105
+#, fuzzy
+msgid "Recipe Title"
+msgstr "Lista de Receitas"
+
+#: classes/administration.php:106
+#, fuzzy
+msgid "Introduction"
+msgstr "Instruções"
+
+#: classes/administration.php:119
+#: widgets/list-form.php:40
+#: includes/settings/widget-options.php:41
+msgid "Featured"
+msgstr ""
+
+#: classes/administration.php:122
+msgid "Author"
+msgstr "Autor"
+
+#: classes/administration.php:128
+#: includes/settings/display-options.php:69
+msgid "Date"
+msgstr "Data"
+
+#: classes/administration.php:158
+msgid "Yes"
+msgstr ""
+
+#: classes/administration.php:160
+#, fuzzy
+msgid "No"
+msgstr "Nada"
+
+#: classes/administration.php:195
+#, fuzzy
+msgid "RecipePress Importer"
+msgstr "Recipe Press"
+
+#: classes/administration.php:195
+#: classes/recipe-import.php:357
+msgid "Import"
+msgstr ""
+
+#: classes/administration.php:198
+#, fuzzy
+msgid "RecipePress Settings"
+msgstr "Definições do Formulário de Receitas"
+
+#: classes/administration.php:198
+#: classes/administration.php:415
+msgid "Settings"
+msgstr "Definições"
+
+#: classes/administration.php:201
+#, fuzzy
+msgid "RecipePress Credits"
+msgstr "Recipe Press"
+
+#: classes/administration.php:201
+#: includes/footer.php:19
+msgid "Credits"
+msgstr "Créditos"
+
+#: classes/custom-walkers.php:98
+msgid "View all recipes filed under %s"
+msgstr ""
+
+#: classes/recipe-import.php:30
+msgid "Importing recipe: "
+msgstr ""
+
+#: classes/recipe-import.php:358
+msgid "This page allows you to import recipes formated in the RecipeML Format.."
+msgstr ""
+
+#: classes/recipe-import.php:362
+#, fuzzy
+msgid "Import File"
+msgstr "Ficheiro de Imagem"
+
+#: classes/recipe-import.php:366
+msgid "Import Results"
+msgstr ""
+
+#: classes/recipe-import.php:374
+#, fuzzy
+msgid "Recipe File Format"
+msgstr "Definições do Formulário de Receitas"
+
+#: classes/recipe-import.php:377
+#, fuzzy
+msgid "RecipeML XML File"
+msgstr "Lista de Receitas"
+
+#: classes/recipe-import.php:378
+msgid "MealMaster File"
+msgstr ""
+
+#: classes/recipe-import.php:383
+#, fuzzy
+msgid "Default import category"
+msgstr "Categoria padrão"
+
+#: classes/recipe-import.php:389
+#: includes/settings/taxonomies-options.php:73
+#: includes/settings/taxonomies-options.php:96
+#: includes/settings/taxonomies-options.php:144
+#: includes/settings/form-options.php:33
+#, fuzzy
+msgid "No Default"
+msgstr "Padrão"
+
+#: classes/recipe-import.php:397
+#, fuzzy
+msgid "The importer will check if the recipe fits into an existing category, otherwise recipe will be added to this category."
+msgstr "Categoria padrão para a adição de receitas. Além disso, ao excluir uma categoria, todas as receitas afectadas serão movidos para esta categoria."
+
+#: classes/recipe-import.php:401
+#: includes/settings/form-options.php:59
+msgid "Status for User Recipes"
+msgstr ""
+
+#: classes/recipe-import.php:404
+#: includes/settings/form-options.php:62
+#, fuzzy
+msgid "Draft"
+msgstr "Rascunho"
+
+#: classes/recipe-import.php:405
+#: includes/settings/form-options.php:63
+#, fuzzy
+msgid "Pending Review"
+msgstr "Receitas pendentes de revisão"
+
+#: classes/recipe-import.php:406
+#: includes/settings/form-options.php:64
+#, fuzzy
+msgid "Published"
+msgstr "Chave Pública"
+
+#: classes/recipe-import.php:408
+#: includes/settings/form-options.php:66
+msgid "Select the default recipe status for new user submitted recipes."
+msgstr ""
+
+#: classes/recipe-import.php:412
+msgid "File to import"
+msgstr ""
+
+#: classes/recipe-import.php:415
+msgid "Choose either a single file or a zip containing a collection of files of the same type.."
+msgstr ""
+
+#: classes/recipe-import.php:422
+#, fuzzy
+msgid "Import Recipe"
+msgstr "Apresentar Receita"
+
+#: classes/recipe-import.php:432
+#: classes/recipe-press-core.php:210
+#: includes/settings/widget-options.php:92
+#: includes/settings/box-options.php:73
+#: includes/settings/image-options.php:88
+#: includes/settings/administration-options.php:82
+#: includes/settings/display-options.php:126
+#: includes/settings/form-options.php:92
+#: includes/settings/form-options.php:132
+msgid "Instructions"
+msgstr "Instruções"
+
+#. #-#-#-#-#  recipe-press.pot (RecipePress 2.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: classes/recipe-press-core.php:41
+#, fuzzy
+msgid "RecipePress"
+msgstr "Recipe Press"
+
+#: classes/recipe-press-core.php:69
+msgid "Recipes"
+msgstr "Receitas"
+
+#: classes/recipe-press-core.php:88
+#, fuzzy
+msgid "Recipe Categories"
+msgstr "Categoria da Receita:"
+
+#: classes/recipe-press-core.php:88
+#, fuzzy
+msgid "Recipe Category"
+msgstr "Categoria da Receita:"
+
+#: classes/recipe-press-core.php:89
+#: classes/recipe-press-core.php:232
+#: templates/shortcode-list.php:40
+#: templates/recipe-loop.php:30
+#: templates/recipe-archive.php:34
+#: themes/recipe-press/loop-recipe.php:58
+#: themes/recipe-press/loop-recipe-taxonomy.php:58
+msgid "Cuisines"
+msgstr ""
+
+#: classes/recipe-press-core.php:89
+#: classes/recipe-press-core.php:233
+msgid "Cuisine"
+msgstr ""
+
+#: classes/recipe-press-core.php:108
+msgid " hour"
+msgstr ""
+
+#: classes/recipe-press-core.php:109
+msgid " min"
+msgstr ""
+
+#: classes/recipe-press-core.php:150
+#, fuzzy
+msgid "My Recipe Box"
+msgstr "Receita"
+
+#: classes/recipe-press-core.php:151
+msgid "Add To Box"
+msgstr ""
+
+#: classes/recipe-press-core.php:152
+msgid "View My Box"
+msgstr ""
+
+#: classes/recipe-press-core.php:200
+msgid "Recipe Name"
+msgstr "Nome da Receita"
+
+#: classes/recipe-press-core.php:201
+msgid "Recipe Image"
+msgstr "Imagem da Receita"
+
+#: classes/recipe-press-core.php:202
+#: templates/recipe-box/main.php:69
+#, fuzzy
+msgid "Recipe Notes"
+msgstr "Nome da Receita"
+
+#: classes/recipe-press-core.php:205
+#: templates/recipe-single.php:72
+#: themes/recipe-press/single-recipe.php:74
+#: includes/settings/form-options.php:87
+#: includes/details-form.php:41
+msgid "Servings"
+msgstr "Porções"
+
+#: classes/recipe-press-core.php:206
+#: includes/template_tags.php:84
+#: includes/template_tags.php:133
+#: includes/settings/form-options.php:88
+#: includes/details-form.php:49
+msgid "Prep Time"
+msgstr "Tempo de Preparação"
+
+#: classes/recipe-press-core.php:207
+#: includes/template_tags.php:168
+#: includes/settings/form-options.php:89
+#: includes/details-form.php:53
+msgid "Cook Time"
+msgstr "Tempo de Confecção"
+
+#: classes/recipe-press-core.php:208
+msgid "Measurement"
+msgstr ""
+
+#: classes/recipe-press-core.php:211
+msgid "Verify"
+msgstr ""
+
+#: classes/recipe-press-core.php:212
+#: widgets/taxonomy-form.php:51
+#: includes/settings/form-options.php:93
+msgid "Name"
+msgstr "Nome"
+
+#: classes/recipe-press-core.php:213
+#: includes/settings/form-options.php:94
+msgid "Email"
+msgstr "Email"
+
+#: classes/recipe-press-core.php:220
+msgid "Categories"
+msgstr "Categorias"
+
+#: classes/recipe-press-core.php:221
+#: includes/settings/form-options.php:84
+msgid "Category"
+msgstr "Categoria"
+
+#: classes/shortcodes.php:189
+msgid "Sorry, no recipe found"
+msgstr ""
+
+#: templates/shortcode-list.php:34
+#: templates/recipe-single.php:37
+#: templates/print/sheet-8x11.php:31
+#: templates/print/card-3x5.php:32
+#: templates/print/card-4x6.php:31
+#: templates/recipe-archive.php:28
+#: themes/recipe-press/loop-recipe.php:52
+#: themes/recipe-press/single-recipe.php:40
+#: themes/recipe-press/loop-recipe-taxonomy.php:52
+msgid "<span>Posted</span> %1$s by %2$s"
+msgstr ""
+
+#: templates/shortcode-list.php:39
+#: templates/recipe-loop.php:29
+#: templates/recipe-archive.php:33
+#: themes/recipe-press/loop-recipe.php:57
+#: themes/recipe-press/loop-recipe-taxonomy.php:57
+msgid "Posted in"
+msgstr ""
+
+#: templates/recipe-box/main.php:36
+#: includes/settings/display-options.php:70
+#: includes/settings/form-options.php:82
+msgid "Title"
+msgstr "Titulo"
+
+#: templates/recipe-box/main.php:38
+msgid "Date Added"
+msgstr ""
+
+#: templates/recipe-box/main.php:39
+#, fuzzy
+msgid "My Notes"
+msgstr "Notas"
+
+#: templates/recipe-box/main.php:54
+msgid "By: "
+msgstr ""
+
+#: templates/recipe-box/main.php:57
+#, fuzzy
+msgid "View"
+msgstr "Visualizações"
+
+#: templates/recipe-single.php:44
+#: themes/recipe-press/single-recipe.php:47
+msgid "Posted in :"
+msgstr ""
+
+#: templates/recipe-single.php:51
+#: themes/recipe-press/single-recipe.php:54
+msgid "Cuisines : "
+msgstr ""
+
+#: templates/recipe-single.php:80
+#: templates/print/sheet-8x11.php:48
+#: templates/print/card-3x5.php:49
+#: templates/print/card-4x6.php:48
+#: themes/recipe-press/single-recipe.php:82
+#, fuzzy
+msgid "Directions"
+msgstr "Instruções"
+
+#: templates/recipe-single.php:85
+#: themes/recipe-press/single-recipe.php:87
+msgid "Pages:"
+msgstr ""
+
+#: templates/recipe-single.php:95
+#: themes/recipe-press/single-recipe.php:97
+#, fuzzy
+msgid "About %s"
+msgstr "Acerca"
+
+#: templates/recipe-single.php:99
+#: themes/recipe-press/single-recipe.php:101
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/recipe-taxonomy.php:31
+#: templates/recipe-taxonomy.php:53
+msgid "<span class=\"meta-nav\">&larr;</span>More Taxonomies"
+msgstr ""
+
+#: templates/recipe-taxonomy.php:32
+#: templates/recipe-taxonomy.php:54
+msgid "More Taxonomies <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/recipe-taxonomy.php:44
+#: themes/recipe-press/taxonomy-recipe.php:36
+#, fuzzy
+msgid "Sample recipes"
+msgstr "Gravar Receita"
+
+#: templates/recipe-print.php:77
+msgid "Select Print Size"
+msgstr ""
+
+#: templates/recipe-print.php:83
+msgid "Return to %1$s"
+msgstr ""
+
+#: templates/print/sheet-8x11.php:37
+#: templates/print/card-3x5.php:38
+#: templates/print/card-4x6.php:37
+#, fuzzy
+msgid "Servings: "
+msgstr "Porções"
+
+#: recipe-press.php:133
+msgid "This form was submitted without a proper nonce. Please contact the site administrator."
+msgstr ""
+
+#: recipe-press.php:208
+msgid "Are you sure you want to remove this recipe from %1$s?"
+msgstr ""
+
+#: recipe-press.php:238
+msgid "Error: File Upload Failed: Invalid File Extension. (%1$s)"
+msgstr ""
+
+#: recipe-press.php:243
+#: recipe-press.php:248
+msgid "Error: Image file too large"
+msgstr ""
+
+#: recipe-press.php:252
+#, fuzzy
+msgid "Recipe image is required."
+msgstr "É necessário indicar o nome da receita"
+
+#: recipe-press.php:375
+msgid "Error creating recipe."
+msgstr ""
+
+#: recipe-press.php:419
+#: widgets/taxonomy-widget.php:64
+#, fuzzy
+msgid "View All"
+msgstr "Visualizações"
+
+#: recipe-press.php:441
+#: widgets/taxonomy-widget.php:112
+#, fuzzy
+msgid "No categories"
+msgstr "Categorias"
+
+#: widgets/list-form.php:19
+#: widgets/category-form.php:19
+msgid "Widget Title (optional):"
+msgstr "Titulo do Widget (opcional):"
+
+#: widgets/list-form.php:24
+msgid "How many items would you like to display?"
+msgstr "Quantos items quer mostrar?"
+
+#: widgets/list-form.php:26
+#: widgets/category-form.php:26
+msgid "Always use default"
+msgstr ""
+
+#: widgets/list-form.php:34
+#, fuzzy
+msgid "Display Type:"
+msgstr "Definições de Apresentação"
+
+#: widgets/list-form.php:37
+#: includes/settings/widget-options.php:38
+#, fuzzy
+msgid "Newest Recipes"
+msgstr "Receitas"
+
+#: widgets/list-form.php:38
+#: includes/settings/widget-options.php:39
+#, fuzzy
+msgid "Random Recipes"
+msgstr "Adiconar Receita"
+
+#: widgets/list-form.php:39
+#: includes/settings/widget-options.php:40
+msgid "Most Popular"
+msgstr ""
+
+#: widgets/list-form.php:41
+#: includes/settings/widget-options.php:42
+msgid "Recently Updated"
+msgstr ""
+
+#: widgets/list-form.php:46
+msgid "Sort Order:"
+msgstr ""
+
+#: widgets/list-form.php:49
+#: widgets/taxonomy-form.php:55
+#: includes/settings/widget-options.php:51
+#: includes/settings/display-options.php:77
+#, fuzzy
+msgid "Ascending"
+msgstr "Pendente"
+
+#: widgets/list-form.php:50
+#: widgets/taxonomy-form.php:56
+#: includes/settings/widget-options.php:52
+#: includes/settings/display-options.php:78
+#, fuzzy
+msgid "Descending"
+msgstr "Pendente"
+
+#: widgets/list-form.php:56
+msgid "Recipe Category:"
+msgstr "Categoria da Receita:"
+
+#: widgets/list-form.php:58
+#, fuzzy
+msgid "All Categories"
+msgstr "Mostrar todas as Categorias"
+
+#: widgets/list-form.php:64
+msgid "Show Icon?"
+msgstr ""
+
+#: widgets/list-form.php:69
+msgid "Icon Size (square):"
+msgstr ""
+
+#: widgets/list-form.php:75
+#: widgets/category-form.php:60
+#: widgets/taxonomy-form.php:85
+msgid "Link Target:"
+msgstr "Link Alvo:"
+
+#: widgets/list-form.php:78
+#: widgets/category-form.php:63
+#: widgets/taxonomy-form.php:88
+msgid "None"
+msgstr "Nada"
+
+#: widgets/list-form.php:80
+#: widgets/category-form.php:64
+#: widgets/taxonomy-form.php:89
+msgid "New Window"
+msgstr "Nova Janela"
+
+#: widgets/list-form.php:82
+#: widgets/category-form.php:65
+#: widgets/taxonomy-form.php:90
+msgid "Top Window"
+msgstr "Janela Superior"
+
+#: widgets/list-form.php:86
+#: widgets/category-form.php:69
+#: widgets/taxonomy-form.php:95
+msgid "Add link to Submit form?"
+msgstr "Adicionar link para Enviar formulário?"
+
+#: widgets/category-widget.php:29
+msgid "List recipe categories on your sidebar. By GrandSlambert."
+msgstr "Lista de categorias na sua barra lateral. Por GrandSlambert."
+
+#: widgets/category-widget.php:31
+#, fuzzy
+msgid "RecipePress &raquo; Categories"
+msgstr "Recipe Press &raquo; Categorias"
+
+#: widgets/taxonomy-widget.php:29
+#, fuzzy
+msgid "List recipe taxonomies on your sidebar. By GrandSlambert."
+msgstr "Lista de categorias na sua barra lateral. Por GrandSlambert."
+
+#: widgets/taxonomy-widget.php:32
+#, fuzzy
+msgid "RecipePress &raquo; Taxonomies"
+msgstr "Recipe Press &raquo; Categorias"
+
+#: widgets/list-widget.php:29
+msgid "List recipes on your sidebar. By GrandSlambert."
+msgstr "Lista de receitas na sua barra lateral. Por GrandSlambert."
+
+#: widgets/list-widget.php:31
+#, fuzzy
+msgid "RecipePress &raquo; List"
+msgstr "Recipe Press &raquo; Lista"
+
+#: widgets/category-form.php:24
+#, fuzzy
+msgid "How many categories would you like to display?"
+msgstr "Quantos items quer mostrar?"
+
+#: widgets/category-form.php:33
+msgid "Sort by:"
+msgstr ""
+
+#: widgets/category-form.php:35
+#, fuzzy
+msgid "Category Name"
+msgstr "Nome da Categoria"
+
+#: widgets/category-form.php:36
+#, fuzzy
+msgid "Recipe count"
+msgstr "Lista de Receitas"
+
+#: widgets/category-form.php:37
+msgid "Random Order"
+msgstr ""
+
+#: widgets/category-form.php:43
+msgid "Show Count?"
+msgstr ""
+
+#: widgets/category-form.php:48
+#, fuzzy
+msgid "Text before count (optional):"
+msgstr "Titulo do Widget (opcional):"
+
+#: widgets/category-form.php:54
+#, fuzzy
+msgid "Test after count (optional):"
+msgstr "Titulo do Widget (opcional):"
+
+#: widgets/taxonomy-form.php:19
+#, fuzzy
+msgid "Widget Title (optional)"
+msgstr "Titulo do Widget (opcional):"
+
+#: widgets/taxonomy-form.php:25
+msgid "Taxonomy to display"
+msgstr ""
+
+#: widgets/taxonomy-form.php:33
+#, fuzzy
+msgid "Display style"
+msgstr "Definições de Apresentação"
+
+#: widgets/taxonomy-form.php:36
+msgid "List"
+msgstr ""
+
+#: widgets/taxonomy-form.php:37
+msgid "Thumbnails"
+msgstr ""
+
+#: widgets/taxonomy-form.php:41
+#, fuzzy
+msgid "Display"
+msgstr "Definições de Apresentação"
+
+#: widgets/taxonomy-form.php:43
+msgid "All Terms"
+msgstr ""
+
+#: widgets/taxonomy-form.php:49
+msgid "entries sorted by:"
+msgstr ""
+
+#: widgets/taxonomy-form.php:52
+msgid "Count"
+msgstr ""
+
+#: widgets/taxonomy-form.php:62
+msgid "Show counts with"
+msgstr ""
+
+#: widgets/taxonomy-form.php:66
+msgid " before and "
+msgstr ""
+
+#: widgets/taxonomy-form.php:70
+msgid " after."
+msgstr ""
+
+#: widgets/taxonomy-form.php:76
+msgid "Show option to view all entries"
+msgstr ""
+
+#: widgets/taxonomy-form.php:97
+msgid "Custom Class Names"
+msgstr ""
+
+#: widgets/taxonomy-form.php:100
+msgid "Widget list class"
+msgstr ""
+
+#: widgets/taxonomy-form.php:106
+msgid "Widget item class"
+msgstr ""
+
+#: widgets/taxonomy-form.php:112
+msgid "Widget child class"
+msgstr ""
+
+#: themes/recipe-press/loop-recipe.php:25
+#: themes/recipe-press/loop-recipe.php:72
+#: themes/recipe-press/loop-recipe-taxonomy.php:25
+#: themes/recipe-press/loop-recipe-taxonomy.php:72
+msgid "<span class=\"meta-nav\">&larr;</span> Older recipes"
+msgstr ""
+
+#: themes/recipe-press/loop-recipe.php:26
+#: themes/recipe-press/loop-recipe.php:73
+#: themes/recipe-press/loop-recipe-taxonomy.php:26
+#: themes/recipe-press/loop-recipe-taxonomy.php:73
+msgid "Newer recipes <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: themes/recipe-press/loop-recipe.php:33
+#: themes/recipe-press/loop-recipe-taxonomy.php:33
+#, fuzzy
+msgid "No Recipes Found"
+msgstr "Receitas"
+
+#: themes/recipe-press/loop-recipe.php:35
+#: themes/recipe-press/loop-recipe-taxonomy.php:35
+msgid "There are currently no recipes in this category. Perhaps searching will help find a related post."
+msgstr ""
+
+#: themes/recipe-press/single-recipe.php:19
+#: themes/recipe-press/single-recipe.php:114
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: themes/recipe-press/single-recipe.php:20
+#: themes/recipe-press/single-recipe.php:115
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: themes/recipe-press/archive-recipe.php:27
+msgid "Recipes posted on <span>%s</span>"
+msgstr ""
+
+#: themes/recipe-press/archive-recipe.php:29
+#: themes/recipe-press/archive-recipe.php:31
+msgid "Recipes posted in <span>%s</span>"
+msgstr ""
+
+#: themes/recipe-press/archive-recipe.php:33
+#, fuzzy
+msgid "Recipe Archives"
+msgstr "Recipe Press"
+
+#: themes/recipe-press/archive-recipe.php:38
+#: themes/recipe-press/index-recipe.php:23
+#, fuzzy
+msgid "Categories: "
+msgstr "Categorias"
+
+#: themes/recipe-press/taxonomy-recipe-ingredient.php:39
+msgid "Recipes that include %1$s:"
+msgstr ""
+
+#: themes/recipe-press/taxonomy-recipe-ingredient.php:57
+#, fuzzy
+msgid "Ingredient Cloud: "
+msgstr "Ingrediente"
+
+#: themes/recipe-press/taxonomy-recipe-cuisine.php:38
+#: themes/recipe-press/taxonomy-recipe-category.php:37
+msgid "Recipes listed in %1$s:"
+msgstr ""
+
+#: themes/recipe-press/taxonomy-recipe-cuisine.php:41
+msgid "More Cuisines: "
+msgstr ""
+
+#: themes/recipe-press/functions.php:49
+#, fuzzy
+msgid "Primary Navigation"
+msgstr "Navegação rápida"
+
+#: themes/recipe-press/functions.php:84
+msgid "Cake Topper"
+msgstr ""
+
+#: themes/recipe-press/functions.php:90
+msgid "Fine Dining"
+msgstr ""
+
+#: themes/recipe-press/functions.php:96
+msgid "Grilled Chicken"
+msgstr ""
+
+#: themes/recipe-press/functions.php:102
+msgid "Healthy Foods"
+msgstr ""
+
+#: themes/recipe-press/functions.php:108
+msgid "Hot Coals"
+msgstr ""
+
+#: themes/recipe-press/functions.php:114
+msgid "Pizza"
+msgstr ""
+
+#: themes/recipe-press/functions.php:120
+msgid "Steak"
+msgstr ""
+
+#: themes/recipe-press/functions.php:126
+msgid "Stovetop"
+msgstr ""
+
+#: themes/recipe-press/taxonomy-recipe-category.php:40
+#, fuzzy
+msgid "More Categories: "
+msgstr "Categorias"
+
+#: includes/settings.php:33
+msgid "Options"
+msgstr ""
+
+#: includes/settings.php:34
+#: includes/settings/taxonomies-options.php:20
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/settings.php:35
+#: includes/settings/display-options.php:21
+msgid "Display Settings"
+msgstr "Definições de Apresentação"
+
+#: includes/settings.php:36
+#, fuzzy
+msgid "Image Settings"
+msgstr "Definições para Guardar"
+
+#: includes/settings.php:37
+#, fuzzy
+msgid "Recipe Box"
+msgstr "Receita"
+
+#: includes/settings.php:38
+#, fuzzy
+msgid "Form Options"
+msgstr "Informação"
+
+#: includes/settings.php:39
+#, fuzzy
+msgid "Widget Defaults"
+msgstr "Definições do Widget"
+
+#: includes/settings.php:40
+#: includes/settings/administration-options.php:20
+#, fuzzy
+msgid "Administration"
+msgstr "Instruções"
+
+#: includes/settings.php:49
+msgid "Plugin Settings"
+msgstr "Definições do Plugin"
+
+#: includes/settings.php:52
+msgid "RecipePress settings have been reset to defaults."
+msgstr ""
+
+#: includes/settings.php:56
+#, fuzzy
+msgid "RecipePress Settings Saved."
+msgstr "Definições do Formulário de Receitas"
+
+#: includes/settings.php:70
+msgid "Save Settings"
+msgstr "Definições para Guardar"
+
+#: includes/template_tags.php:204
+#, fuzzy
+msgid "Ready Time"
+msgstr "Pronta em"
+
+#: includes/template_tags.php:609
+msgid "Posted In: "
+msgstr ""
+
+#: includes/template_tags.php:751
+msgid "Print"
+msgstr ""
+
+#: includes/template_tags.php:804
+msgid "Share"
+msgstr ""
+
+#: includes/template_tags.php:870
+#, fuzzy
+msgid "&larr; More Recipes"
+msgstr "Gravar Receita"
+
+#: includes/template_tags.php:904
+msgid "More Recipes &rarr;"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:39
+msgid "New Taxonomy"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:48
+#: includes/settings/box-options.php:32
+#, fuzzy
+msgid "URL Slug"
+msgstr "Slug"
+
+#: includes/settings/taxonomies-options.php:51
+msgid "The URL slug to use for listing all of the items in \"%1$s\"."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:52
+#: includes/settings/taxonomies-options.php:137
+#: includes/settings/recipe-options.php:36
+#: includes/settings/box-options.php:36
+#, fuzzy
+msgid "View on Site"
+msgstr "Ver comentários"
+
+#: includes/settings/taxonomies-options.php:56
+#: includes/settings/recipe-options.php:64
+#, fuzzy
+msgid "Plural Name"
+msgstr "O seu nome"
+
+#: includes/settings/taxonomies-options.php:59
+msgid "Plural name to use in the menus for this plugin for the taxonomy \"%1$s\"."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:63
+#: includes/settings/recipe-options.php:71
+#, fuzzy
+msgid "Singular Name"
+msgstr "O seu nome"
+
+#: includes/settings/taxonomies-options.php:66
+msgid "Singular name to use in the menus for this plugin for the taxonomy \"%1$s\"."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:71
+#: includes/settings/taxonomies-options.php:142
+#, fuzzy
+msgid "Display Page"
+msgstr "Definições de Apresentação"
+
+#: includes/settings/taxonomies-options.php:74
+#: includes/settings/taxonomies-options.php:145
+msgid "The page where this taxonomy will be listed. You must place the short code [%1$s] on this page to display the recipes. This will be the page that users will be directed to if the template file \"%2$s\" does not exist in your theme."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:80
+#: includes/settings/taxonomies-options.php:149
+msgid "Display how many per page"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:94
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/settings/taxonomies-options.php:102
+msgid "Hierarchical?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:105
+msgid "Should the taxonomy \"%1$s\" have a hierarchical structure like post tags?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:109
+msgid "Allow Multiple?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:112
+msgid "Should the taxonomy \"%1$s\" allow multiple selections on the public form?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:116
+msgid "Activate?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:119
+msgid "Should the taxonomy \"%1$s\" be active on the site?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:123
+#, fuzzy
+msgid "Delete?"
+msgstr "Apagar"
+
+#: includes/settings/taxonomies-options.php:126
+msgid "Delete the taxonomy %1$s? Will not remove the data, only removes the taxonomy options."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:133
+#, fuzzy
+msgid "Ingredient Slug"
+msgstr "Ingrediente"
+
+#: includes/settings/taxonomies-options.php:136
+msgid "The URL slug to use for listing all of the ingredients."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:163
+msgid "Add a new taxonomy?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:166
+msgid "Taxonomy Name"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:169
+msgid "The taxonomy name for the new taxonomy. You will not be able to change this!"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:175
+msgid "<strong>Instructions</strong>: In the field above you need to enter the taxonomy object name. For example, categories is \"recipe-category\" This should not be one listed in the %1$s. It can contain ONLY letters, numbers, underscore (_) or dash (-). You will <strong>not</strong> be able to change this later. Click the \"Save Settings\" button to create the taxonomy, then set the options for the new taxonomy."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:176
+msgid "Reserved Terms"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:188
+#, fuzzy
+msgid "Taxonomy Settings"
+msgstr "Definições de Apresentação"
+
+#: includes/settings/taxonomies-options.php:190
+msgid "If you want to have a page that lists your taxonomies, you need to do one of two things:"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:192
+msgid "Create Pages"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:192
+msgid "Create individual pages for each taxonomy that will list the terms. These pages must have the [%1$s] short code on them. [%2$s]"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:192
+msgid "Documentation for shortcode"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:195
+#, fuzzy
+msgid "Create Template File"
+msgstr "Modelo:"
+
+#: includes/settings/taxonomies-options.php:195
+msgid "If you create a template file named `recipe-taxonomy.php` in your theme, all taxonomies will use this template to display a list of taxonomies. [%1$s]"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:195
+msgid "Documentation"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:198
+msgid "Warning!"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:198
+msgid "If you do not select a display page for a taxonomy and the template file does not exist, any calls to the site with the URL slug for the taxonomy will redirect to your default recipe list."
+msgstr ""
+
+#: includes/settings/widget-options.php:20
+msgid "Widget Settings"
+msgstr "Definições do Widget"
+
+#: includes/settings/widget-options.php:24
+msgid "Default Items to Display"
+msgstr "Items mostrados como padrão"
+
+#: includes/settings/widget-options.php:31
+msgid "Default for new widgets."
+msgstr "Padrão para Widgets novos."
+
+#: includes/settings/widget-options.php:35
+#, fuzzy
+msgid "Default List Widget Type"
+msgstr "Link Alvo Padrão"
+
+#: includes/settings/widget-options.php:44
+#: includes/settings/widget-options.php:54
+#: includes/settings/widget-options.php:66
+msgid "Default link target when adding a new widget."
+msgstr "Alvo do Link Padrão quando adicionado a um novo Widget."
+
+#: includes/settings/widget-options.php:48
+#, fuzzy
+msgid "Default List Widget Sort"
+msgstr "Link Alvo Padrão"
+
+#: includes/settings/widget-options.php:59
+msgid "Default Link Target"
+msgstr "Link Alvo Padrão"
+
+#: includes/settings/widget-options.php:71
+msgid "Show Icons?"
+msgstr ""
+
+#: includes/settings/widget-options.php:74
+msgid "Check this option to show icons in widgets by default, can be turned of individually in each widget instance."
+msgstr ""
+
+#: includes/settings/widget-options.php:79
+msgid "Widget Icon Size"
+msgstr ""
+
+#: includes/settings/widget-options.php:82
+msgid "Default icon size for widgets, can be changed in each widget instance."
+msgstr ""
+
+#: includes/settings/recipe-options.php:27
+#, fuzzy
+msgid "Recipe Options"
+msgstr "Lista de Receitas"
+
+#: includes/settings/recipe-options.php:32
+msgid "Index Slug"
+msgstr ""
+
+#: includes/settings/recipe-options.php:35
+msgid "This will be used as the slug (URL) for the recipe index pages."
+msgstr ""
+
+#: includes/settings/recipe-options.php:42
+msgid "Use plugin permalinks?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:45
+msgid "Wordpress 3.1+ has a feature to list recipes on an index page. If you prefer to use your own permalink structure, check this box and the plugin will use the settings below."
+msgstr ""
+
+#: includes/settings/recipe-options.php:51
+msgid "Identifier"
+msgstr ""
+
+#: includes/settings/recipe-options.php:54
+msgid "This will be used in the permalink structure to identify the custom type for recipes."
+msgstr ""
+
+#: includes/settings/recipe-options.php:58
+msgid "Permalink Structure:"
+msgstr ""
+
+#: includes/settings/recipe-options.php:67
+msgid "Plural name to use in the menus for this plugin."
+msgstr ""
+
+#: includes/settings/recipe-options.php:74
+msgid "Singular name to use in the menus for this plugin."
+msgstr ""
+
+#: includes/settings/recipe-options.php:79
+msgid "Use Taxonomies?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:82
+#, fuzzy
+msgid "Click this option to include the Taxonomies feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:84
+msgid "Manage Taxonomies"
+msgstr ""
+
+#: includes/settings/recipe-options.php:88
+#, fuzzy
+msgid "Use Servings?"
+msgstr "Porções"
+
+#: includes/settings/recipe-options.php:91
+#, fuzzy
+msgid "Click this option to include the servings feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:93
+#, fuzzy
+msgid "Use Times?"
+msgstr "Tempo de Preparação"
+
+#: includes/settings/recipe-options.php:96
+#, fuzzy
+msgid "Click this option to include the prep and cook time feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:100
+msgid "Use Thumbnails?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:103
+#, fuzzy
+msgid "Click this option to include the thumbnails feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:105
+msgid "Use Featured?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:108
+#, fuzzy
+msgid "Click this option to include the featured recipes feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:112
+#, fuzzy
+msgid "Use Comments?"
+msgstr "Comentários"
+
+#: includes/settings/recipe-options.php:115
+#, fuzzy
+msgid "Click this option to include the comments feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:117
+msgid "Use Trackbacks?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:120
+#, fuzzy
+msgid "Click this option to include the trackback feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:124
+msgid "Use Custom Fields?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:127
+#, fuzzy
+msgid "Click this option to include the custom fields feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:129
+msgid "Use Revisions?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:132
+#, fuzzy
+msgid "Click this option to include the revisions feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:137
+msgid "Use Nutritional Value?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:140
+#, fuzzy
+msgid "Click this option to include the nutritional value feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:143
+msgid "These two use the built in category and post tags used in standard posts."
+msgstr ""
+
+#: includes/settings/recipe-options.php:146
+#, fuzzy
+msgid "Use Post Categories?"
+msgstr "Cotegorias existentes"
+
+#: includes/settings/recipe-options.php:149
+#, fuzzy
+msgid "Click this option to include the post categories feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:151
+msgid "Use Post Tags?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:154
+#, fuzzy
+msgid "Click this option to include the post tags feature."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/recipe-options.php:163
+#, fuzzy
+msgid "Permalink Instructions"
+msgstr "Instruções"
+
+#: includes/settings/recipe-options.php:167
+msgid "The permalink structure will be used to create the custom URL structure for your individual recipes. These follow WP's normal %1$s, but must also include the content type %2$s and at least one of these unique tags: %3$s or %4$s."
+msgstr ""
+
+#: includes/settings/recipe-options.php:168
+msgid "permalink tags"
+msgstr ""
+
+#: includes/settings/recipe-options.php:176
+msgid "Allowed tags: "
+msgstr ""
+
+#: includes/settings/recipe-options.php:181
+msgid "For complete instructions on how to set up your permaliks, visit the %1$s."
+msgstr ""
+
+#: includes/settings/recipe-options.php:182
+msgid "Documentation Page"
+msgstr ""
+
+#: includes/settings/box-options.php:20
+#, fuzzy
+msgid "Recipe Box Options"
+msgstr "Definições do Formulário de Receitas"
+
+#: includes/settings/box-options.php:25
+#, fuzzy
+msgid "Recipe Box is"
+msgstr "Lista de Receitas"
+
+#: includes/settings/box-options.php:27
+msgid "Enabled"
+msgstr ""
+
+#: includes/settings/box-options.php:28
+msgid "Disabled"
+msgstr ""
+
+#: includes/settings/box-options.php:35
+msgid "This slug will be used to create the URL for the recipe box option."
+msgstr ""
+
+#: includes/settings/box-options.php:40
+#, fuzzy
+msgid "Recipe Box Page"
+msgstr "Página da Lista de Receitas"
+
+#: includes/settings/box-options.php:42
+msgid "None Selected"
+msgstr ""
+
+#: includes/settings/box-options.php:43
+msgid "Select a page to display the Recipe Box on if there is no template file for it. You must include the [%1$s] shortcode on this page."
+msgstr ""
+
+#: includes/settings/box-options.php:47
+#, fuzzy
+msgid "Box Title"
+msgstr "Titulo do Formulário"
+
+#: includes/settings/box-options.php:50
+msgid "This will be displayed at the top right of the recipe box."
+msgstr ""
+
+#: includes/settings/box-options.php:54
+msgid "Add to box link"
+msgstr ""
+
+#: includes/settings/box-options.php:57
+msgid "The title to use in the recipe controls to add a recipe to the Recipe Box."
+msgstr ""
+
+#: includes/settings/box-options.php:61
+msgid "View box link"
+msgstr ""
+
+#: includes/settings/box-options.php:64
+msgid "The title to use for the link to the View Recipe Box."
+msgstr ""
+
+#: includes/settings/image-options.php:20
+#, fuzzy
+msgid "Image Options"
+msgstr "Ficheiro de Imagem"
+
+#: includes/settings/image-options.php:27
+msgid "This page allows you to manage the built in image sizes used for recipes. Image sizes lised below will be prefixed with \"%1$s\" when they are registered with WordPress."
+msgstr ""
+
+#: includes/settings/image-options.php:30
+msgid "Please note that you will not be able to change the name or slug for the built in sizes."
+msgstr ""
+
+#: includes/settings/image-options.php:33
+msgid "Warning"
+msgstr ""
+
+#: includes/settings/image-options.php:35
+msgid "If you change the sizes of the images on this page, your existing images will not automatically be resized. I suggest using the %1$s plugin by %2$s which will recreate all the image sizes. This only needs to be done if you change these image sizes."
+msgstr ""
+
+#: includes/settings/image-options.php:36
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: includes/settings/image-options.php:44
+#, fuzzy
+msgid "Image Name"
+msgstr "Ficheiro de Imagem"
+
+#: includes/settings/image-options.php:45
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/settings/image-options.php:46
+msgid "Width"
+msgstr ""
+
+#: includes/settings/image-options.php:47
+msgid "Height"
+msgstr ""
+
+#: includes/settings/image-options.php:48
+msgid "Mode"
+msgstr ""
+
+#: includes/settings/image-options.php:74
+msgid "Hard Crop"
+msgstr ""
+
+#: includes/settings/image-options.php:75
+msgid "Proportional"
+msgstr ""
+
+#: includes/settings/administration-options.php:25
+msgid "Reset to default: "
+msgstr ""
+
+#: includes/settings/administration-options.php:30
+#, fuzzy
+msgid "Remove Recipes: "
+msgstr "Gravar Receita"
+
+#: includes/settings/administration-options.php:32
+#, fuzzy
+msgid "Pending only"
+msgstr "Pendente"
+
+#: includes/settings/administration-options.php:33
+#, fuzzy
+msgid "All Recipes"
+msgstr "Receitas"
+
+#: includes/settings/administration-options.php:39
+msgid "Remove %1$s: "
+msgstr ""
+
+#: includes/settings/administration-options.php:41
+msgid "Empty %1$s"
+msgstr ""
+
+#: includes/settings/administration-options.php:48
+msgid "Remove Recipe Sizes: "
+msgstr ""
+
+#: includes/settings/administration-options.php:50
+msgid "Empty Sizes"
+msgstr ""
+
+#: includes/settings/administration-options.php:55
+msgid "Remove Recipe Servings: "
+msgstr ""
+
+#: includes/settings/administration-options.php:57
+msgid "Empty Serving Sizes"
+msgstr ""
+
+#: includes/settings/administration-options.php:61
+msgid "Remove Recipe Ingredients: "
+msgstr ""
+
+#: includes/settings/administration-options.php:63
+#, fuzzy
+msgid "Empty Ingredients"
+msgstr "Ingredientes"
+
+#: includes/settings/administration-options.php:68
+msgid "Back-up Options: "
+msgstr ""
+
+#: includes/settings/administration-options.php:72
+msgid "Restore Options: "
+msgstr ""
+
+#: includes/settings/display-options.php:26
+msgid "Display in menu after"
+msgstr ""
+
+#: includes/settings/display-options.php:35
+msgid "Select where in the WordPress menu you want the Recipes menu to appear."
+msgstr ""
+
+#: includes/settings/display-options.php:39
+msgid "Add recipes to author lists?"
+msgstr ""
+
+#: includes/settings/display-options.php:42
+#, fuzzy
+msgid "Click this option to include the recipes by each author in their respective post list."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/display-options.php:46
+msgid "Default Excerpt Length"
+msgstr ""
+
+#: includes/settings/display-options.php:49
+msgid "Default length of introduction excerpt when displaying in lists."
+msgstr ""
+
+#: includes/settings/display-options.php:53
+#, fuzzy
+msgid "Recipes to display"
+msgstr "Lista de Receitas"
+
+#: includes/settings/display-options.php:56
+msgid "Use default reading setting."
+msgstr ""
+
+#: includes/settings/display-options.php:62
+msgid "How many recipes to display per page on the listing pages."
+msgstr ""
+
+#: includes/settings/display-options.php:66
+#, fuzzy
+msgid "Recipes Sort Field"
+msgstr "Campos de formulário necessários "
+
+#: includes/settings/display-options.php:71
+msgid "Random"
+msgstr ""
+
+#: includes/settings/display-options.php:72
+#, fuzzy
+msgid "Comment Count"
+msgstr "Comentário"
+
+#: includes/settings/display-options.php:73
+msgid "Menu Order"
+msgstr ""
+
+#: includes/settings/display-options.php:80
+msgid "The listing order of recipes on the index page."
+msgstr ""
+
+#: includes/settings/display-options.php:84
+msgid "Use Plugin CSS?"
+msgstr "Utilizar CSS do Plugin?"
+
+#: includes/settings/display-options.php:87
+msgid "Click this option to include the CSS from the plugin."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/settings/display-options.php:91
+msgid "Disable Content Filtering?"
+msgstr ""
+
+#: includes/settings/display-options.php:94
+msgid "Click this option to completely disable any content filtering. Warning! Only do this if you have created template files and are having an issue with template display."
+msgstr ""
+
+#: includes/settings/display-options.php:98
+#, fuzzy
+msgid "Default time display"
+msgstr "Items mostrados como padrão"
+
+#: includes/settings/display-options.php:101
+msgid "Single Line"
+msgstr ""
+
+#: includes/settings/display-options.php:102
+msgid "Two Line"
+msgstr ""
+
+#: includes/settings/display-options.php:107
+msgid "\"Hours\" Text"
+msgstr "Texto \"Horas\""
+
+#: includes/settings/display-options.php:110
+#: includes/settings/display-options.php:117
+#, fuzzy
+msgid "This is the text that will be used in the ready time box if more than 60 minutes is required. Leave as a singular word."
+msgstr "Este é o texto que será usado na caixa \"tempo para ficar pronto\" se for necessário mais de 60 minutos. Deixar como uma palavra singular."
+
+#: includes/settings/display-options.php:114
+msgid "\"Minutes\" Text"
+msgstr "Texto \"Minutos\""
+
+#: includes/settings/form-options.php:20
+msgid "Recipe Form Settings"
+msgstr "Definições do Formulário de Receitas"
+
+#: includes/settings/form-options.php:26
+msgid "Important Notice"
+msgstr ""
+
+#: includes/settings/form-options.php:27
+msgid "To display the recipe form, add the %1$s short code to any page or post. You must do this on the page you selected below for the form to display."
+msgstr ""
+
+#: includes/settings/form-options.php:31
+#, fuzzy
+msgid "Default form page"
+msgstr "Padrão para Widgets novos."
+
+#: includes/settings/form-options.php:34
+msgid "If a page is selected, all links to the submit form created by the plugin will direct to this page. The form will not automatically be added to this page."
+msgstr ""
+
+#: includes/settings/form-options.php:38
+#, fuzzy
+msgid "Redirect Page"
+msgstr "Página da Lista de Receitas"
+
+#: includes/settings/form-options.php:40
+msgid "Home Page"
+msgstr ""
+
+#: includes/settings/form-options.php:41
+msgid "What page to redirect a visitor to after a recipe has been submitted successfully."
+msgstr ""
+
+#: includes/settings/form-options.php:45
+#, fuzzy
+msgid "Use public submit form?"
+msgstr "Exigir login para enviar o formulário?"
+
+#: includes/settings/form-options.php:48
+msgid "If checked, allows users to submit recipes from the front end."
+msgstr ""
+
+#: includes/settings/form-options.php:52
+#, fuzzy
+msgid "Require login for submit?"
+msgstr "Exigir login para enviar o formulário?"
+
+#: includes/settings/form-options.php:55
+#, fuzzy
+msgid "If checked, users must log in to submit a recipe."
+msgstr "Se seleccionado irá exigir que todos os utilizadores tenham de estar autenticados para enviar uma receita."
+
+#: includes/settings/form-options.php:70
+msgid "Number of ingredients fields on blank form"
+msgstr "Numero de campos de ingredientes apresentados no formulário vazio"
+
+#: includes/settings/form-options.php:73
+msgid "How many initial ingredients input lines to display on a blank form."
+msgstr "Quantas linhas de entrada de ingredientes são inicialmente mostradas num formulário em branco."
+
+#: includes/settings/form-options.php:77
+msgid "Required Form Fields"
+msgstr "Campos de formulário necessários "
+
+#: includes/settings/form-options.php:83
+#: includes/ingredient-form.php:59
+#: includes/ingredient-form.php:149
+msgid "Notes"
+msgstr "Notas"
+
+#: includes/settings/form-options.php:93
+#: includes/settings/form-options.php:94
+msgid "Only displayed when a user is not logged in"
+msgstr "Apenas aparece quando um utilizador não está autenticado"
+
+#: includes/settings/form-options.php:104
+msgid "reCaptcha Settings"
+msgstr "Definições reCaptcha"
+
+#: includes/settings/form-options.php:106
+msgid "To use reCaptcha on the public form, enter your public and private keys here."
+msgstr "Para usar reCaptcha nos formulários, introduza as suas chaves públicas e privadas aqui."
+
+#: includes/settings/form-options.php:107
+msgid "Get Keys"
+msgstr "Obter chaves"
+
+#: includes/settings/form-options.php:111
+msgid "Force for All Users?"
+msgstr "Forçar para todos os utilizadores?"
+
+#: includes/settings/form-options.php:114
+msgid "If checked, logged in users will see the reCaptcha."
+msgstr "Se activado, os utilizadores autenticados vão ver o reCaptcha."
+
+#: includes/settings/form-options.php:118
+msgid "Public Key"
+msgstr "Chave Pública"
+
+#: includes/settings/form-options.php:122
+msgid "Private Key"
+msgstr "Chave Privada"
+
+#: includes/taxonomy_tags.php:400
+msgid "<span class=\"meta-nav\">&larr;</span> Previous %1$s"
+msgstr ""
+
+#: includes/taxonomy_tags.php:419
+msgid "Next %1$s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: includes/details-form.php:29
+#: includes/ingredient-form.php:50
+#: includes/ingredient-form.php:108
+#, fuzzy
+msgid "No Size"
+msgstr "Unidade"
+
+#: includes/details-form.php:59
+#, fuzzy
+msgid "Ready in"
+msgstr "Pronta em"
+
+#: includes/details-form.php:68
+msgid "Featured?"
+msgstr ""
+
+#: includes/details-form.php:76
+#, fuzzy
+msgid "Link ingredients?"
+msgstr "Ingredientes"
+
+#: includes/details-form.php:78
+msgid "Check this box if you want your ingredients without page or URL links to link to a list of recipes with that ingredient."
+msgstr ""
+
+#: includes/recipe_box_tags.php:120
+#, fuzzy
+msgid "Search Recipe Box"
+msgstr "Gravar Receita"
+
+#: includes/recipe_box_tags.php:289
+#, fuzzy
+msgid "No notes"
+msgstr "Notas"
+
+#: includes/recipe_box_tags.php:292
+#, fuzzy
+msgid "Save Notes"
+msgstr "Notas"
+
+#: includes/recipe_box_tags.php:293
+msgid "Cancel"
+msgstr ""
+
+#: includes/nutrients-form.php:37
+msgid "Amount Per Serving"
+msgstr ""
+
+#: includes/converter.php:19
+msgid "Converting Old Recipes"
+msgstr ""
+
+#: includes/converter.php:28
+#, fuzzy
+msgid "Converting %1$d categories"
+msgstr "Cotegorias existentes"
+
+#: includes/converter.php:43
+msgid "Converting %1$d recipes"
+msgstr ""
+
+#: includes/converter.php:93
+msgid "Converting %1$d comments"
+msgstr ""
+
+#: includes/ingredient-form.php:33
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: includes/ingredient-form.php:38
+#, fuzzy
+msgid "Link to page"
+msgstr "Link Alvo:"
+
+#: includes/ingredient-form.php:45
+#: includes/ingredient-form.php:83
+#, fuzzy
+msgid "Drag Ingredient"
+msgstr "Ingrediente"
+
+#: includes/ingredient-form.php:46
+#: includes/ingredient-form.php:84
+#, fuzzy
+msgid "Delete Ingredient"
+msgstr "Ingrediente"
+
+#: includes/ingredient-form.php:68
+#: includes/ingredient-form.php:161
+#, fuzzy
+msgid "URL"
+msgstr "URL:"
+
+#: includes/ingredient-form.php:178
+msgid "Add Divider"
+msgstr "Adicionar divisão"
+
+#: includes/form_tags.php:173
+msgid "No size"
+msgstr ""
+
+#: includes/form_tags.php:212
+msgid "Missing required field: %1$s"
+msgstr ""
+
+#: includes/form_tags.php:251
+msgid "Please enter the words above."
+msgstr "Por favor, introduza as palavras acima."
+
+#: includes/form_tags.php:254
+msgid "Thank you for entering valid captcha text."
+msgstr "Obrigado por introduzir um texto captcha válido."
+
+#: includes/form_tags.php:266
+msgid "Submit Recipe"
+msgstr "Apresentar Receita"
+
+#: includes/footer.php:23
+#, fuzzy
+msgid "Thank you for trying the %1$s plugin - I hope you find it useful. For the latest updates on this plugin, vist the %2$s."
+msgstr "Obrigado por experimentar o plugin %1$s  - Espero que seja útil. Para obter as últimas actualizações sobre este plugin, viste o %2$s. Se tiver problemas com este plugin, use o nosso %3$s"
+
+#: includes/footer.php:25
+msgid "official site"
+msgstr "site oficial"
+
+#: includes/footer.php:29
+msgid "If you have questions about this plugin, please use our %1$s and take a look at our %2$s."
+msgstr ""
+
+#: includes/footer.php:30
+msgid "Support Forum"
+msgstr "Forum de Suporte"
+
+#: includes/footer.php:31
+msgid "Documentation Project"
+msgstr ""
+
+#: includes/footer.php:36
+msgid "Please report bugs on the %1$s page."
+msgstr ""
+
+#: includes/footer.php:37
+msgid "Bug Tracking"
+msgstr ""
+
+#: includes/footer.php:42
+msgid "This plugin is &copy; %1$s by %2$s and is released under the %3$s"
+msgstr "Este plugin é &copy; %1$s por %2$s e é disponibilizado sob a %3$s"
+
+#: includes/footer.php:45
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#: includes/footer.php:51
+msgid "Donate"
+msgstr "Donativo"
+
+#: includes/footer.php:54
+msgid "If you find this plugin useful, please consider supporting this and our other great %1$s."
+msgstr "Se achar útil este plugin, considere por favor suportar este e outros fantásticos %1$s."
+
+#: includes/footer.php:54
+msgid "plugins"
+msgstr "plugins"
+
+#: includes/footer.php:55
+msgid "Donate a few bucks!"
+msgstr "Contribuir com algumas moedas"
+
+#: includes/convert.php:21
+#, fuzzy
+msgid "Convert Old Recipes"
+msgstr "Gravar Receita"
+
+#: includes/convert.php:25
+msgid "Conversion Options"
+msgstr ""
+
+#: includes/convert.php:30
+msgid "I have detected that you have convertd an older version of %1$s at some time. The old recipes and other items are still present in the system. Would you like to convert them?"
+msgstr ""
+
+#: includes/convert.php:33
+#, fuzzy
+msgid "Convert Recipes?"
+msgstr "Gravar Receita"
+
+#: includes/convert.php:36
+msgid "Click this option to convert all existing recipes."
+msgstr ""
+
+#: includes/convert.php:38
+#, fuzzy
+msgid "Convert Categories?"
+msgstr "Categorias"
+
+#: includes/convert.php:41
+#, fuzzy
+msgid "Click this option to convert your old recipe categories."
+msgstr "Clique nesta opção para incluir CSS no plugin."
+
+#: includes/convert.php:45
+#, fuzzy
+msgid "Convert Comments?"
+msgstr "Permitir comentários"
+
+#: includes/convert.php:48
+msgid "Click this option to convert all existing recipe comments."
+msgstr ""
+
+#: includes/convert.php:52
+msgid "Notce: Running this conversion script will copy the data from the old install and remove all old data. Please make a backup of your old data before running this conversion."
+msgstr ""
+
+#: includes/convert.php:57
+msgid "Start Conversion"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://recipepress.net"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Turn your Wordpress site into a full fledged recipe sharing system. Allow users to submit recipes, organize recipes in hierarchal categories, make comments, and embed recipes in posts and pages."
+msgstr "Transforme o seu site Wordpress num verdadeiro sistema de partilha de receitas. Permitindo aos utilizadores enviar receitas, organizar receitas em categorias hierárquicas, fazer comentários e inserir as receitas nos posts e páginas."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "grandslambert"
+msgstr "GrandSlambert"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://grandslambert.com/"
+msgstr "http://www.grandslambert.com/"
+

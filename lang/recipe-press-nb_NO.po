@@ -1,0 +1,2403 @@
+# Translation of the WordPress plugin Recipe Press 1.0-RC4 by GrandSlambert.
+# Copyright (C) 2010 GrandSlambert
+# This file is distributed under the same license as the Recipe Press package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Recipe Press 2.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/recipe-press\n"
+"POT-Creation-Date: 2011-03-07 19:53:32+00:00\n"
+"PO-Revision-Date: 2011-03-07 14:16-0600\n"
+"Last-Translator: Shane Lambert <shane@grandslambert.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Norwegian Bokmal\n"
+"X-Poedit-Country: NORWAY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: classes/initialize.php:80
+#, fuzzy
+msgid "RecipePress requires an update."
+msgstr "Recipe Press &raquo; Liste"
+
+#: classes/initialize.php:80
+msgid "You must <a href=\"%1$s\">run the update tool</a> for it to work."
+msgstr "Você deve <a href=\"%1$s\"> executar a ferramenta de atualização</a> para que ele funcione."
+
+#: classes/initialize.php:87
+#, fuzzy
+msgid "RecipePress Upgrade"
+msgstr "Recipe Press"
+
+#: classes/initialize.php:100
+msgid "Update to version 2.0"
+msgstr "Atualização para versão 2.0"
+
+#: classes/initialize.php:107
+msgid "Creating new taxonomy for ingredient sizes and populating data."
+msgstr "Criar nova taxonomia para os tamanhos dos ingredientes e preencher os dados."
+
+#: classes/initialize.php:137
+msgid "Creating new taxonomy for serving sizes and populating data."
+msgstr ""
+
+#: classes/initialize.php:166
+msgid "Creating new taxonomy for ingredients and populating data."
+msgstr ""
+
+#: classes/initialize.php:205
+msgid "Done Updating."
+msgstr ""
+
+#: classes/initialize.php:223
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: classes/initialize.php:224
+#, fuzzy
+msgid "Add New %1$s"
+msgstr "Legg til ny"
+
+#: classes/initialize.php:225
+#: classes/initialize.php:618
+#, fuzzy
+msgid "Edit %1$s"
+msgstr "Rediger"
+
+#: classes/initialize.php:226
+#: templates/recipe-single.php:107
+#: themes/recipe-press/single-recipe.php:109
+#: themes/recipe-press/recipe-form.php:26
+msgid "Edit"
+msgstr "Rediger"
+
+#: classes/initialize.php:227
+#: classes/initialize.php:621
+msgid "New %1$s"
+msgstr ""
+
+#: classes/initialize.php:228
+#: classes/initialize.php:232
+msgid "View %1$s"
+msgstr ""
+
+#: classes/initialize.php:229
+#: classes/initialize.php:614
+msgid "Search %1$s"
+msgstr ""
+
+#: classes/initialize.php:230
+#, fuzzy
+msgid "No %1$s found"
+msgstr "Ingen oppskrifter funnet"
+
+#: classes/initialize.php:231
+#, fuzzy
+msgid "No %1$s found in Trash"
+msgstr "Ingen oppskrifter i søppeldunken"
+
+#: classes/initialize.php:233
+#: classes/initialize.php:617
+msgid "Parent %1$s"
+msgstr ""
+
+#: classes/initialize.php:234
+msgid "Parent %1$s:"
+msgstr ""
+
+#: classes/initialize.php:325
+msgid "Warning: The site administrator has not set a page to load the recipe box on."
+msgstr ""
+
+#: classes/initialize.php:364
+#: classes/initialize.php:741
+#: classes/initialize.php:757
+#: classes/initialize.php:808
+#: classes/administration.php:116
+#: classes/recipe-press-core.php:209
+#: classes/shortcodes.php:240
+#: templates/recipe-single.php:78
+#: templates/print/sheet-8x11.php:44
+#: templates/print/card-3x5.php:45
+#: templates/print/card-4x6.php:44
+#: widgets/taxonomy-widget.php:164
+#: themes/recipe-press/single-recipe.php:80
+#: includes/settings/taxonomies-options.php:36
+msgid "Ingredients"
+msgstr "Ingredienser"
+
+#: classes/initialize.php:466
+#, fuzzy
+msgid "Recipe Ingredients"
+msgstr "Ingredienser"
+
+#: classes/initialize.php:615
+#, fuzzy
+msgid "Popular %1$s"
+msgstr "Populære type retter"
+
+#: classes/initialize.php:616
+#: includes/settings/administration-options.php:42
+msgid "All %1$s"
+msgstr ""
+
+#: classes/initialize.php:619
+#, fuzzy
+msgid "Update %1$s"
+msgstr "Oppdater type rett"
+
+#: classes/initialize.php:620
+msgid "Add %1$s"
+msgstr ""
+
+#: classes/initialize.php:622
+msgid "Add or remove %1$s"
+msgstr ""
+
+#: classes/initialize.php:623
+msgid "Choose from the most used %1$s"
+msgstr ""
+
+#: classes/initialize.php:671
+#: classes/initialize.php:687
+#, fuzzy
+msgid "Sizes"
+msgstr "Størrelse"
+
+#: classes/initialize.php:672
+#: includes/ingredient-form.php:34
+msgid "Size"
+msgstr "Størrelse"
+
+#: classes/initialize.php:673
+#, fuzzy
+msgid "Search Sizes"
+msgstr "Søk oppskrift"
+
+#: classes/initialize.php:674
+#, fuzzy
+msgid "Popular Sizes"
+msgstr "Populære type retter"
+
+#: classes/initialize.php:675
+#: includes/settings/administration-options.php:51
+#, fuzzy
+msgid "All Sizes"
+msgstr "Alle type retter"
+
+#: classes/initialize.php:676
+#, fuzzy
+msgid "Parent Size"
+msgstr "Foreldrekategorier"
+
+#: classes/initialize.php:677
+#, fuzzy
+msgid "Edit Size"
+msgstr "Rediger oppskrift"
+
+#: classes/initialize.php:678
+#, fuzzy
+msgid "Update Size"
+msgstr "Oppdater type rett"
+
+#: classes/initialize.php:679
+#: includes/settings/image-options.php:82
+#, fuzzy
+msgid "Add Size"
+msgstr "Størrelse"
+
+#: classes/initialize.php:680
+#, fuzzy
+msgid "New Size"
+msgstr "Størrelse"
+
+#: classes/initialize.php:681
+msgid "Add or remove Sizes"
+msgstr ""
+
+#: classes/initialize.php:682
+msgid "Choose from the most used Sizes"
+msgstr ""
+
+#: classes/initialize.php:705
+#: classes/initialize.php:721
+#, fuzzy
+msgid "Serving Sizes"
+msgstr "Porsjoner"
+
+#: classes/initialize.php:706
+#, fuzzy
+msgid "Serving Size"
+msgstr "Porsjoner"
+
+#: classes/initialize.php:707
+#, fuzzy
+msgid "Search Serving Sizes"
+msgstr "Bruk porsjoner?"
+
+#: classes/initialize.php:708
+#, fuzzy
+msgid "Popular Serving Sizes"
+msgstr "Populære kategorier"
+
+#: classes/initialize.php:709
+#: includes/settings/administration-options.php:58
+#, fuzzy
+msgid "All Serving Sizes"
+msgstr "Porsjoner"
+
+#: classes/initialize.php:710
+msgid "Parent Serving Size"
+msgstr ""
+
+#: classes/initialize.php:711
+msgid "Edit Serving Size"
+msgstr ""
+
+#: classes/initialize.php:712
+#, fuzzy
+msgid "Update Serving Size"
+msgstr "Bruk porsjoner?"
+
+#: classes/initialize.php:713
+msgid "Add Serving Size"
+msgstr ""
+
+#: classes/initialize.php:714
+#, fuzzy
+msgid "New Serving Size"
+msgstr "Bruk porsjoner?"
+
+#: classes/initialize.php:715
+msgid "Add or remove Serving Sizes"
+msgstr ""
+
+#: classes/initialize.php:716
+msgid "Choose from the most used Serving Sizes"
+msgstr ""
+
+#: classes/initialize.php:742
+#: includes/ingredient-form.php:35
+msgid "Ingredient"
+msgstr "Ingrediens"
+
+#: classes/initialize.php:743
+#, fuzzy
+msgid "Search Ingredients"
+msgstr "Ingredienser"
+
+#: classes/initialize.php:744
+#, fuzzy
+msgid "Popular Ingredients"
+msgstr "Ingredienser"
+
+#: classes/initialize.php:745
+#: includes/settings/administration-options.php:64
+#, fuzzy
+msgid "All Ingredients"
+msgstr "Ingredienser"
+
+#: classes/initialize.php:746
+#, fuzzy
+msgid "Parent Ingredient"
+msgstr "Slett ingrediens"
+
+#: classes/initialize.php:747
+#, fuzzy
+msgid "Edit Ingredient"
+msgstr "Legg til ingrediens"
+
+#: classes/initialize.php:748
+#, fuzzy
+msgid "Update Ingredient"
+msgstr "Legg til ingrediens"
+
+#: classes/initialize.php:749
+#: includes/ingredient-form.php:178
+msgid "Add Ingredient"
+msgstr "Legg til ingrediens"
+
+#: classes/initialize.php:750
+#, fuzzy
+msgid "New Ingredient"
+msgstr "Ingrediens"
+
+#: classes/initialize.php:751
+#, fuzzy
+msgid "Add or remove Ingredients"
+msgstr "Legg til ingrediens"
+
+#: classes/initialize.php:752
+msgid "Choose from the most used Ingredients"
+msgstr ""
+
+#: classes/initialize.php:809
+msgid "Details"
+msgstr "Detaljer"
+
+#: classes/initialize.php:813
+#, fuzzy
+msgid "Nutrients"
+msgstr "Ingredienser"
+
+#. translators: Message displayed when the contributors list cannot be
+#. accessed.
+#: classes/credits.php:37
+msgid "There was an error getting the list. Try again later."
+msgstr "Det skjedde en feil ved generering av listen. Prøv igjen senere."
+
+#: classes/credits.php:58
+msgid "Contributed: "
+msgstr "Bidratt:"
+
+#: classes/credits.php:94
+#: includes/contributors.php:19
+msgid "Contributors"
+msgstr "Bidragsytere"
+
+#: classes/credits.php:95
+#: includes/contributors.php:20
+#, fuzzy
+msgid "This page includes a list of RecipePress users who have contributed time or money to the development of this plugin."
+msgstr "Denne siden viser en liste over personer som har bidratt med tid og penger for å utvikle Recipe Press."
+
+#: classes/credits.php:99
+#: includes/contributors.php:24
+msgid "Major Contributors"
+msgstr "Store bidragsytere"
+
+#: classes/credits.php:103
+#: includes/contributors.php:28
+msgid "Additional Contributors"
+msgstr "Andre bidragsytere"
+
+#: classes/recipe-box.php:51
+msgid "%1$s is already listed in your recipe-box."
+msgstr ""
+
+#: classes/recipe-box.php:54
+msgid "%1$s has been added to your recipe-box."
+msgstr ""
+
+#: classes/recipe-box.php:87
+msgid "Recipe successfully removed from "
+msgstr ""
+
+#: classes/administration.php:71
+#: classes/recipe-press-core.php:70
+#, fuzzy
+msgid "Recipe"
+msgid_plural "Recipes"
+msgstr[0] "Oppskrift"
+msgstr[1] "Oppskrift"
+
+#: classes/administration.php:83
+#, fuzzy
+msgid "Recipe Pending"
+msgid_plural "Recipes Pending"
+msgstr[0] "Recipes Pending"
+msgstr[1] "Recipes Pending"
+
+#: classes/administration.php:104
+msgid "Image"
+msgstr ""
+
+#: classes/administration.php:105
+#, fuzzy
+msgid "Recipe Title"
+msgstr "Oppskriftsnotater"
+
+#: classes/administration.php:106
+#, fuzzy
+msgid "Introduction"
+msgstr "Framgangsmåte"
+
+#: classes/administration.php:119
+#: widgets/list-form.php:40
+#: includes/settings/widget-options.php:41
+msgid "Featured"
+msgstr "Utvalgte"
+
+#: classes/administration.php:122
+msgid "Author"
+msgstr ""
+
+#: classes/administration.php:128
+#: includes/settings/display-options.php:69
+msgid "Date"
+msgstr ""
+
+#: classes/administration.php:158
+msgid "Yes"
+msgstr "Ja"
+
+#: classes/administration.php:160
+msgid "No"
+msgstr "Nei"
+
+#: classes/administration.php:195
+#, fuzzy
+msgid "RecipePress Importer"
+msgstr "Recipe Press"
+
+#: classes/administration.php:195
+#: classes/recipe-import.php:357
+msgid "Import"
+msgstr ""
+
+#: classes/administration.php:198
+#, fuzzy
+msgid "RecipePress Settings"
+msgstr "Skjemainnstillinger"
+
+#: classes/administration.php:198
+#: classes/administration.php:415
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: classes/administration.php:201
+#, fuzzy
+msgid "RecipePress Credits"
+msgstr "Recipe Press"
+
+#: classes/administration.php:201
+#: includes/footer.php:19
+msgid "Credits"
+msgstr "Kreditering"
+
+#: classes/custom-walkers.php:98
+msgid "View all recipes filed under %s"
+msgstr ""
+
+#: classes/recipe-import.php:30
+#, fuzzy
+msgid "Importing recipe: "
+msgstr "Konverterer %1$d oppskrifter"
+
+#: classes/recipe-import.php:358
+msgid "This page allows you to import recipes formated in the RecipeML Format.."
+msgstr ""
+
+#: classes/recipe-import.php:362
+msgid "Import File"
+msgstr ""
+
+#: classes/recipe-import.php:366
+msgid "Import Results"
+msgstr ""
+
+#: classes/recipe-import.php:374
+#, fuzzy
+msgid "Recipe File Format"
+msgstr "Skjemainnstillinger"
+
+#: classes/recipe-import.php:377
+#, fuzzy
+msgid "RecipeML XML File"
+msgstr "Oppskriftsliste-side"
+
+#: classes/recipe-import.php:378
+msgid "MealMaster File"
+msgstr ""
+
+#: classes/recipe-import.php:383
+#, fuzzy
+msgid "Default import category"
+msgstr "Standard kategori"
+
+#: classes/recipe-import.php:389
+#: includes/settings/taxonomies-options.php:73
+#: includes/settings/taxonomies-options.php:96
+#: includes/settings/taxonomies-options.php:144
+#: includes/settings/form-options.php:33
+msgid "No Default"
+msgstr ""
+
+#: classes/recipe-import.php:397
+#, fuzzy
+msgid "The importer will check if the recipe fits into an existing category, otherwise recipe will be added to this category."
+msgstr "Standard kategori for oppskrifter. Sletter du en kategori vil alle oppskrifter i den kategorien automatisk bli flyttet til denne."
+
+#: classes/recipe-import.php:401
+#: includes/settings/form-options.php:59
+msgid "Status for User Recipes"
+msgstr "Status for brukergenererte oppskrifter"
+
+#: classes/recipe-import.php:404
+#: includes/settings/form-options.php:62
+msgid "Draft"
+msgstr "Kladd"
+
+#: classes/recipe-import.php:405
+#: includes/settings/form-options.php:63
+msgid "Pending Review"
+msgstr "Venter på gjennomgang"
+
+#: classes/recipe-import.php:406
+#: includes/settings/form-options.php:64
+msgid "Published"
+msgstr "Publisert"
+
+#: classes/recipe-import.php:408
+#: includes/settings/form-options.php:66
+msgid "Select the default recipe status for new user submitted recipes."
+msgstr "Velg standard status for nye oppskrifter lagt inn av brukere."
+
+#: classes/recipe-import.php:412
+msgid "File to import"
+msgstr ""
+
+#: classes/recipe-import.php:415
+msgid "Choose either a single file or a zip containing a collection of files of the same type.."
+msgstr ""
+
+#: classes/recipe-import.php:422
+#, fuzzy
+msgid "Import Recipe"
+msgstr "Legg inn oppskrift"
+
+#: classes/recipe-import.php:432
+#: classes/recipe-press-core.php:210
+#: includes/settings/widget-options.php:92
+#: includes/settings/box-options.php:73
+#: includes/settings/image-options.php:88
+#: includes/settings/administration-options.php:82
+#: includes/settings/display-options.php:126
+#: includes/settings/form-options.php:92
+#: includes/settings/form-options.php:132
+msgid "Instructions"
+msgstr "Framgangsmåte"
+
+#. #-#-#-#-#  recipe-press.pot (RecipePress 2.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: classes/recipe-press-core.php:41
+#, fuzzy
+msgid "RecipePress"
+msgstr "Recipe Press"
+
+#: classes/recipe-press-core.php:69
+#, fuzzy
+msgid "Recipes"
+msgstr "Oppskrift"
+
+#: classes/recipe-press-core.php:88
+msgid "Recipe Categories"
+msgstr "Oppskriftskategorier"
+
+#: classes/recipe-press-core.php:88
+#, fuzzy
+msgid "Recipe Category"
+msgstr "Oppskriftskategori:"
+
+#: classes/recipe-press-core.php:89
+#: classes/recipe-press-core.php:232
+#: templates/shortcode-list.php:40
+#: templates/recipe-loop.php:30
+#: templates/recipe-archive.php:34
+#: themes/recipe-press/loop-recipe.php:58
+#: themes/recipe-press/loop-recipe-taxonomy.php:58
+msgid "Cuisines"
+msgstr "Type retter"
+
+#: classes/recipe-press-core.php:89
+#: classes/recipe-press-core.php:233
+msgid "Cuisine"
+msgstr "Type rett"
+
+#: classes/recipe-press-core.php:108
+msgid " hour"
+msgstr "time"
+
+#: classes/recipe-press-core.php:109
+msgid " min"
+msgstr "minutt"
+
+#: classes/recipe-press-core.php:150
+#, fuzzy
+msgid "My Recipe Box"
+msgstr "Oppskriftsnotater"
+
+#: classes/recipe-press-core.php:151
+msgid "Add To Box"
+msgstr ""
+
+#: classes/recipe-press-core.php:152
+msgid "View My Box"
+msgstr ""
+
+#: classes/recipe-press-core.php:200
+msgid "Recipe Name"
+msgstr "Oppskriftsnavn"
+
+#: classes/recipe-press-core.php:201
+#, fuzzy
+msgid "Recipe Image"
+msgstr "Oppskriftsnavn"
+
+#: classes/recipe-press-core.php:202
+#: templates/recipe-box/main.php:69
+msgid "Recipe Notes"
+msgstr "Oppskriftsnotater"
+
+#: classes/recipe-press-core.php:205
+#: templates/recipe-single.php:72
+#: themes/recipe-press/single-recipe.php:74
+#: includes/settings/form-options.php:87
+#: includes/details-form.php:41
+msgid "Servings"
+msgstr "Porsjoner"
+
+#: classes/recipe-press-core.php:206
+#: includes/template_tags.php:84
+#: includes/template_tags.php:133
+#: includes/settings/form-options.php:88
+#: includes/details-form.php:49
+msgid "Prep Time"
+msgstr "Tilbedredelsestid"
+
+#: classes/recipe-press-core.php:207
+#: includes/template_tags.php:168
+#: includes/settings/form-options.php:89
+#: includes/details-form.php:53
+msgid "Cook Time"
+msgstr "Koketid"
+
+#: classes/recipe-press-core.php:208
+#, fuzzy
+msgid "Measurement"
+msgstr "Måleenhet"
+
+#: classes/recipe-press-core.php:211
+msgid "Verify"
+msgstr "Verifiser"
+
+#: classes/recipe-press-core.php:212
+#: widgets/taxonomy-form.php:51
+#: includes/settings/form-options.php:93
+msgid "Name"
+msgstr "Navn"
+
+#: classes/recipe-press-core.php:213
+#: includes/settings/form-options.php:94
+msgid "Email"
+msgstr "E-post"
+
+#: classes/recipe-press-core.php:220
+msgid "Categories"
+msgstr "Kategorier"
+
+#: classes/recipe-press-core.php:221
+#: includes/settings/form-options.php:84
+msgid "Category"
+msgstr "Kategori"
+
+#: classes/shortcodes.php:189
+#, fuzzy
+msgid "Sorry, no recipe found"
+msgstr "Ingen oppskrifter funnet"
+
+#: templates/shortcode-list.php:34
+#: templates/recipe-single.php:37
+#: templates/print/sheet-8x11.php:31
+#: templates/print/card-3x5.php:32
+#: templates/print/card-4x6.php:31
+#: templates/recipe-archive.php:28
+#: themes/recipe-press/loop-recipe.php:52
+#: themes/recipe-press/single-recipe.php:40
+#: themes/recipe-press/loop-recipe-taxonomy.php:52
+msgid "<span>Posted</span> %1$s by %2$s"
+msgstr "<span>Publisert</span> %1$s av %2$s"
+
+#: templates/shortcode-list.php:39
+#: templates/recipe-loop.php:29
+#: templates/recipe-archive.php:33
+#: themes/recipe-press/loop-recipe.php:57
+#: themes/recipe-press/loop-recipe-taxonomy.php:57
+msgid "Posted in"
+msgstr "Lagret i"
+
+#: templates/recipe-box/main.php:36
+#: includes/settings/display-options.php:70
+#: includes/settings/form-options.php:82
+msgid "Title"
+msgstr "Tittel"
+
+#: templates/recipe-box/main.php:38
+msgid "Date Added"
+msgstr ""
+
+#: templates/recipe-box/main.php:39
+#, fuzzy
+msgid "My Notes"
+msgstr "Notater"
+
+#: templates/recipe-box/main.php:54
+msgid "By: "
+msgstr ""
+
+#: templates/recipe-box/main.php:57
+msgid "View"
+msgstr ""
+
+#: templates/recipe-single.php:44
+#: themes/recipe-press/single-recipe.php:47
+#, fuzzy
+msgid "Posted in :"
+msgstr "Lagret i"
+
+#: templates/recipe-single.php:51
+#: themes/recipe-press/single-recipe.php:54
+#, fuzzy
+msgid "Cuisines : "
+msgstr "Type rett:"
+
+#: templates/recipe-single.php:80
+#: templates/print/sheet-8x11.php:48
+#: templates/print/card-3x5.php:49
+#: templates/print/card-4x6.php:48
+#: themes/recipe-press/single-recipe.php:82
+msgid "Directions"
+msgstr "Framgangsmåte"
+
+#: templates/recipe-single.php:85
+#: themes/recipe-press/single-recipe.php:87
+msgid "Pages:"
+msgstr "Sider:"
+
+#: templates/recipe-single.php:95
+#: themes/recipe-press/single-recipe.php:97
+msgid "About %s"
+msgstr "Om %s"
+
+#: templates/recipe-single.php:99
+#: themes/recipe-press/single-recipe.php:101
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vis alle innlegg av %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: templates/recipe-taxonomy.php:31
+#: templates/recipe-taxonomy.php:53
+#, fuzzy
+msgid "<span class=\"meta-nav\">&larr;</span>More Taxonomies"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre oppskrifter"
+
+#: templates/recipe-taxonomy.php:32
+#: templates/recipe-taxonomy.php:54
+#, fuzzy
+msgid "More Taxonomies <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere oppskrifter <span class=\"meta-nav\">&rarr;</span>"
+
+#: templates/recipe-taxonomy.php:44
+#: themes/recipe-press/taxonomy-recipe.php:36
+msgid "Sample recipes"
+msgstr "Eksempeloppskrifter"
+
+#: templates/recipe-print.php:77
+msgid "Select Print Size"
+msgstr ""
+
+#: templates/recipe-print.php:83
+msgid "Return to %1$s"
+msgstr ""
+
+#: templates/print/sheet-8x11.php:37
+#: templates/print/card-3x5.php:38
+#: templates/print/card-4x6.php:37
+#, fuzzy
+msgid "Servings: "
+msgstr "Porsjoner"
+
+#: recipe-press.php:133
+msgid "This form was submitted without a proper nonce. Please contact the site administrator."
+msgstr ""
+
+#: recipe-press.php:208
+msgid "Are you sure you want to remove this recipe from %1$s?"
+msgstr ""
+
+#: recipe-press.php:238
+msgid "Error: File Upload Failed: Invalid File Extension. (%1$s)"
+msgstr ""
+
+#: recipe-press.php:243
+#: recipe-press.php:248
+msgid "Error: Image file too large"
+msgstr ""
+
+#: recipe-press.php:252
+msgid "Recipe image is required."
+msgstr ""
+
+#: recipe-press.php:375
+msgid "Error creating recipe."
+msgstr ""
+
+#: recipe-press.php:419
+#: widgets/taxonomy-widget.php:64
+msgid "View All"
+msgstr ""
+
+#: recipe-press.php:441
+#: widgets/taxonomy-widget.php:112
+#, fuzzy
+msgid "No categories"
+msgstr "Kategorier"
+
+#: widgets/list-form.php:19
+#: widgets/category-form.php:19
+msgid "Widget Title (optional):"
+msgstr "Widget-tittel (valgfritt):"
+
+#: widgets/list-form.php:24
+#, fuzzy
+msgid "How many items would you like to display?"
+msgstr "Hvor mange kategorier ønsker du å vise?"
+
+#: widgets/list-form.php:26
+#: widgets/category-form.php:26
+msgid "Always use default"
+msgstr ""
+
+#: widgets/list-form.php:34
+msgid "Display Type:"
+msgstr "Visningstype:"
+
+#: widgets/list-form.php:37
+#: includes/settings/widget-options.php:38
+msgid "Newest Recipes"
+msgstr "Siste oppskrifter"
+
+#: widgets/list-form.php:38
+#: includes/settings/widget-options.php:39
+msgid "Random Recipes"
+msgstr "Tilfeldige oppskrifter"
+
+#: widgets/list-form.php:39
+#: includes/settings/widget-options.php:40
+msgid "Most Popular"
+msgstr "Mest populære"
+
+#: widgets/list-form.php:41
+#: includes/settings/widget-options.php:42
+msgid "Recently Updated"
+msgstr "Sist oppdatert"
+
+#: widgets/list-form.php:46
+msgid "Sort Order:"
+msgstr "Sorteringsrekkefølge:"
+
+#: widgets/list-form.php:49
+#: widgets/taxonomy-form.php:55
+#: includes/settings/widget-options.php:51
+#: includes/settings/display-options.php:77
+msgid "Ascending"
+msgstr "Økende"
+
+#: widgets/list-form.php:50
+#: widgets/taxonomy-form.php:56
+#: includes/settings/widget-options.php:52
+#: includes/settings/display-options.php:78
+msgid "Descending"
+msgstr "Synkende"
+
+#: widgets/list-form.php:56
+msgid "Recipe Category:"
+msgstr "Oppskriftskategori:"
+
+#: widgets/list-form.php:58
+msgid "All Categories"
+msgstr "Alle kategorier"
+
+#: widgets/list-form.php:64
+msgid "Show Icon?"
+msgstr "Vis ikon?"
+
+#: widgets/list-form.php:69
+msgid "Icon Size (square):"
+msgstr "Ikonstørrelse (kvadrat):"
+
+#: widgets/list-form.php:75
+#: widgets/category-form.php:60
+#: widgets/taxonomy-form.php:85
+msgid "Link Target:"
+msgstr "Lenkemål:"
+
+#: widgets/list-form.php:78
+#: widgets/category-form.php:63
+#: widgets/taxonomy-form.php:88
+msgid "None"
+msgstr "Ingen"
+
+#: widgets/list-form.php:80
+#: widgets/category-form.php:64
+#: widgets/taxonomy-form.php:89
+msgid "New Window"
+msgstr "Nytt vindu"
+
+#: widgets/list-form.php:82
+#: widgets/category-form.php:65
+#: widgets/taxonomy-form.php:90
+msgid "Top Window"
+msgstr "Øverste vindu"
+
+#: widgets/list-form.php:86
+#: widgets/category-form.php:69
+#: widgets/taxonomy-form.php:95
+msgid "Add link to Submit form?"
+msgstr "Legg til lenke til skjema?"
+
+#: widgets/category-widget.php:29
+msgid "List recipe categories on your sidebar. By GrandSlambert."
+msgstr "Vis oppskriftkategorier i sidemenyen. Av GrandSlambert."
+
+#: widgets/category-widget.php:31
+#, fuzzy
+msgid "RecipePress &raquo; Categories"
+msgstr "Recipe Press &raquo; Kategorier"
+
+#: widgets/taxonomy-widget.php:29
+#, fuzzy
+msgid "List recipe taxonomies on your sidebar. By GrandSlambert."
+msgstr "Vis oppskriftkategorier i sidemenyen. Av GrandSlambert."
+
+#: widgets/taxonomy-widget.php:32
+#, fuzzy
+msgid "RecipePress &raquo; Taxonomies"
+msgstr "Recipe Press &raquo; Kategorier"
+
+#: widgets/list-widget.php:29
+msgid "List recipes on your sidebar. By GrandSlambert."
+msgstr "Vis oppskrifter i sidemenyen. Av GrandSlambert."
+
+#: widgets/list-widget.php:31
+#, fuzzy
+msgid "RecipePress &raquo; List"
+msgstr "Recipe Press &raquo; Liste"
+
+#: widgets/category-form.php:24
+msgid "How many categories would you like to display?"
+msgstr "Hvor mange kategorier ønsker du å vise?"
+
+#: widgets/category-form.php:33
+msgid "Sort by:"
+msgstr "Sorter etter:"
+
+#: widgets/category-form.php:35
+msgid "Category Name"
+msgstr "Kategorinavn"
+
+#: widgets/category-form.php:36
+msgid "Recipe count"
+msgstr "Antall oppskrifter"
+
+#: widgets/category-form.php:37
+msgid "Random Order"
+msgstr "Tilfeldig rekkefølge"
+
+#: widgets/category-form.php:43
+msgid "Show Count?"
+msgstr "Vis antall?"
+
+#: widgets/category-form.php:48
+msgid "Text before count (optional):"
+msgstr "Tekst før antall (valgfritt):"
+
+#: widgets/category-form.php:54
+msgid "Test after count (optional):"
+msgstr "Tekst etter antall (valgfritt):"
+
+#: widgets/taxonomy-form.php:19
+#, fuzzy
+msgid "Widget Title (optional)"
+msgstr "Widget-tittel (valgfritt):"
+
+#: widgets/taxonomy-form.php:25
+msgid "Taxonomy to display"
+msgstr ""
+
+#: widgets/taxonomy-form.php:33
+#, fuzzy
+msgid "Display style"
+msgstr "Visningstype:"
+
+#: widgets/taxonomy-form.php:36
+msgid "List"
+msgstr ""
+
+#: widgets/taxonomy-form.php:37
+#, fuzzy
+msgid "Thumbnails"
+msgstr "Bruk miniatyrbilder?"
+
+#: widgets/taxonomy-form.php:41
+#, fuzzy
+msgid "Display"
+msgstr "Visningstype:"
+
+#: widgets/taxonomy-form.php:43
+#, fuzzy
+msgid "All Terms"
+msgstr "Alle kategorier"
+
+#: widgets/taxonomy-form.php:49
+msgid "entries sorted by:"
+msgstr ""
+
+#: widgets/taxonomy-form.php:52
+#, fuzzy
+msgid "Count"
+msgstr "Vis antall?"
+
+#: widgets/taxonomy-form.php:62
+#, fuzzy
+msgid "Show counts with"
+msgstr "Vis antall?"
+
+#: widgets/taxonomy-form.php:66
+msgid " before and "
+msgstr ""
+
+#: widgets/taxonomy-form.php:70
+msgid " after."
+msgstr ""
+
+#: widgets/taxonomy-form.php:76
+#, fuzzy
+msgid "Show option to view all entries"
+msgstr "Klikk her for å konvertere alle eksisterende oppskrifter."
+
+#: widgets/taxonomy-form.php:97
+msgid "Custom Class Names"
+msgstr ""
+
+#: widgets/taxonomy-form.php:100
+msgid "Widget list class"
+msgstr ""
+
+#: widgets/taxonomy-form.php:106
+msgid "Widget item class"
+msgstr ""
+
+#: widgets/taxonomy-form.php:112
+msgid "Widget child class"
+msgstr ""
+
+#: themes/recipe-press/loop-recipe.php:25
+#: themes/recipe-press/loop-recipe.php:72
+#: themes/recipe-press/loop-recipe-taxonomy.php:25
+#: themes/recipe-press/loop-recipe-taxonomy.php:72
+msgid "<span class=\"meta-nav\">&larr;</span> Older recipes"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre oppskrifter"
+
+#: themes/recipe-press/loop-recipe.php:26
+#: themes/recipe-press/loop-recipe.php:73
+#: themes/recipe-press/loop-recipe-taxonomy.php:26
+#: themes/recipe-press/loop-recipe-taxonomy.php:73
+msgid "Newer recipes <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere oppskrifter <span class=\"meta-nav\">&rarr;</span>"
+
+#: themes/recipe-press/loop-recipe.php:33
+#: themes/recipe-press/loop-recipe-taxonomy.php:33
+#, fuzzy
+msgid "No Recipes Found"
+msgstr "Ingen oppskrifter funnet"
+
+#: themes/recipe-press/loop-recipe.php:35
+#: themes/recipe-press/loop-recipe-taxonomy.php:35
+msgid "There are currently no recipes in this category. Perhaps searching will help find a related post."
+msgstr ""
+
+#: themes/recipe-press/single-recipe.php:19
+#: themes/recipe-press/single-recipe.php:114
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: themes/recipe-press/single-recipe.php:20
+#: themes/recipe-press/single-recipe.php:115
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: themes/recipe-press/archive-recipe.php:27
+#, fuzzy
+msgid "Recipes posted on <span>%s</span>"
+msgstr "Oppskrift lagret i %1s"
+
+#: themes/recipe-press/archive-recipe.php:29
+#: themes/recipe-press/archive-recipe.php:31
+#, fuzzy
+msgid "Recipes posted in <span>%s</span>"
+msgstr "Oppskrift lagret i %1s"
+
+#: themes/recipe-press/archive-recipe.php:33
+#, fuzzy
+msgid "Recipe Archives"
+msgstr "Recipe Press"
+
+#: themes/recipe-press/archive-recipe.php:38
+#: themes/recipe-press/index-recipe.php:23
+#, fuzzy
+msgid "Categories: "
+msgstr "Kategorier"
+
+#: themes/recipe-press/taxonomy-recipe-ingredient.php:39
+#, fuzzy
+msgid "Recipes that include %1$s:"
+msgstr "Oppskrift lagret i %1s"
+
+#: themes/recipe-press/taxonomy-recipe-ingredient.php:57
+#, fuzzy
+msgid "Ingredient Cloud: "
+msgstr "Ingrediensnotater:"
+
+#: themes/recipe-press/taxonomy-recipe-cuisine.php:38
+#: themes/recipe-press/taxonomy-recipe-category.php:37
+#, fuzzy
+msgid "Recipes listed in %1$s:"
+msgstr "Oppskrift lagret i %1s"
+
+#: themes/recipe-press/taxonomy-recipe-cuisine.php:41
+#, fuzzy
+msgid "More Cuisines: "
+msgstr "Type rett:"
+
+#: themes/recipe-press/functions.php:49
+msgid "Primary Navigation"
+msgstr ""
+
+#: themes/recipe-press/functions.php:84
+msgid "Cake Topper"
+msgstr ""
+
+#: themes/recipe-press/functions.php:90
+msgid "Fine Dining"
+msgstr ""
+
+#: themes/recipe-press/functions.php:96
+msgid "Grilled Chicken"
+msgstr ""
+
+#: themes/recipe-press/functions.php:102
+msgid "Healthy Foods"
+msgstr ""
+
+#: themes/recipe-press/functions.php:108
+msgid "Hot Coals"
+msgstr ""
+
+#: themes/recipe-press/functions.php:114
+msgid "Pizza"
+msgstr ""
+
+#: themes/recipe-press/functions.php:120
+msgid "Steak"
+msgstr ""
+
+#: themes/recipe-press/functions.php:126
+msgid "Stovetop"
+msgstr ""
+
+#: themes/recipe-press/taxonomy-recipe-category.php:40
+#, fuzzy
+msgid "More Categories: "
+msgstr "Bruk kategorier?"
+
+#: includes/settings.php:33
+#, fuzzy
+msgid "Options"
+msgstr "Oppskriftalternativer"
+
+#: includes/settings.php:34
+#: includes/settings/taxonomies-options.php:20
+msgid "Taxonomies"
+msgstr ""
+
+#: includes/settings.php:35
+#: includes/settings/display-options.php:21
+msgid "Display Settings"
+msgstr "Visningsinnstillinger"
+
+#: includes/settings.php:36
+#, fuzzy
+msgid "Image Settings"
+msgstr "Lagre innstillinger"
+
+#: includes/settings.php:37
+#, fuzzy
+msgid "Recipe Box"
+msgstr "Oppskrift"
+
+#: includes/settings.php:38
+#, fuzzy
+msgid "Form Options"
+msgstr "Konverteringsalternativer"
+
+#: includes/settings.php:39
+#, fuzzy
+msgid "Widget Defaults"
+msgstr "Widget-innstillinger"
+
+#: includes/settings.php:40
+#: includes/settings/administration-options.php:20
+#, fuzzy
+msgid "Administration"
+msgstr "Framgangsmåte"
+
+#: includes/settings.php:49
+msgid "Plugin Settings"
+msgstr "Innstikkinnstillinger"
+
+#: includes/settings.php:52
+msgid "RecipePress settings have been reset to defaults."
+msgstr ""
+
+#: includes/settings.php:56
+#, fuzzy
+msgid "RecipePress Settings Saved."
+msgstr "Skjemainnstillinger"
+
+#: includes/settings.php:70
+msgid "Save Settings"
+msgstr "Lagre innstillinger"
+
+#: includes/template_tags.php:204
+#, fuzzy
+msgid "Ready Time"
+msgstr "Ferdig på"
+
+#: includes/template_tags.php:609
+msgid "Posted In: "
+msgstr "Lagret i:"
+
+#: includes/template_tags.php:751
+msgid "Print"
+msgstr ""
+
+#: includes/template_tags.php:804
+msgid "Share"
+msgstr ""
+
+#: includes/template_tags.php:870
+#, fuzzy
+msgid "&larr; More Recipes"
+msgstr "Status for brukergenererte oppskrifter"
+
+#: includes/template_tags.php:904
+msgid "More Recipes &rarr;"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:39
+msgid "New Taxonomy"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:48
+#: includes/settings/box-options.php:32
+msgid "URL Slug"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:51
+msgid "The URL slug to use for listing all of the items in \"%1$s\"."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:52
+#: includes/settings/taxonomies-options.php:137
+#: includes/settings/recipe-options.php:36
+#: includes/settings/box-options.php:36
+#, fuzzy
+msgid "View on Site"
+msgstr "Widget ikonstørrelse"
+
+#: includes/settings/taxonomies-options.php:56
+#: includes/settings/recipe-options.php:64
+msgid "Plural Name"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:59
+msgid "Plural name to use in the menus for this plugin for the taxonomy \"%1$s\"."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:63
+#: includes/settings/recipe-options.php:71
+msgid "Singular Name"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:66
+msgid "Singular name to use in the menus for this plugin for the taxonomy \"%1$s\"."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:71
+#: includes/settings/taxonomies-options.php:142
+#, fuzzy
+msgid "Display Page"
+msgstr "Visningstype:"
+
+#: includes/settings/taxonomies-options.php:74
+#: includes/settings/taxonomies-options.php:145
+msgid "The page where this taxonomy will be listed. You must place the short code [%1$s] on this page to display the recipes. This will be the page that users will be directed to if the template file \"%2$s\" does not exist in your theme."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:80
+#: includes/settings/taxonomies-options.php:149
+msgid "Display how many per page"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:94
+#, fuzzy
+msgid "Default"
+msgstr "Standard kategori"
+
+#: includes/settings/taxonomies-options.php:102
+msgid "Hierarchical?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:105
+msgid "Should the taxonomy \"%1$s\" have a hierarchical structure like post tags?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:109
+msgid "Allow Multiple?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:112
+msgid "Should the taxonomy \"%1$s\" allow multiple selections on the public form?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:116
+msgid "Activate?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:119
+msgid "Should the taxonomy \"%1$s\" be active on the site?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:123
+msgid "Delete?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:126
+msgid "Delete the taxonomy %1$s? Will not remove the data, only removes the taxonomy options."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:133
+#, fuzzy
+msgid "Ingredient Slug"
+msgstr "Ingrediens"
+
+#: includes/settings/taxonomies-options.php:136
+msgid "The URL slug to use for listing all of the ingredients."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:163
+msgid "Add a new taxonomy?"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:166
+#, fuzzy
+msgid "Taxonomy Name"
+msgstr "Kategorinavn"
+
+#: includes/settings/taxonomies-options.php:169
+msgid "The taxonomy name for the new taxonomy. You will not be able to change this!"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:175
+msgid "<strong>Instructions</strong>: In the field above you need to enter the taxonomy object name. For example, categories is \"recipe-category\" This should not be one listed in the %1$s. It can contain ONLY letters, numbers, underscore (_) or dash (-). You will <strong>not</strong> be able to change this later. Click the \"Save Settings\" button to create the taxonomy, then set the options for the new taxonomy."
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:176
+msgid "Reserved Terms"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:188
+#, fuzzy
+msgid "Taxonomy Settings"
+msgstr "Visningsinnstillinger"
+
+#: includes/settings/taxonomies-options.php:190
+msgid "If you want to have a page that lists your taxonomies, you need to do one of two things:"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:192
+msgid "Create Pages"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:192
+msgid "Create individual pages for each taxonomy that will list the terms. These pages must have the [%1$s] short code on them. [%2$s]"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:192
+msgid "Documentation for shortcode"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:195
+msgid "Create Template File"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:195
+msgid "If you create a template file named `recipe-taxonomy.php` in your theme, all taxonomies will use this template to display a list of taxonomies. [%1$s]"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:195
+msgid "Documentation"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:198
+msgid "Warning!"
+msgstr ""
+
+#: includes/settings/taxonomies-options.php:198
+msgid "If you do not select a display page for a taxonomy and the template file does not exist, any calls to the site with the URL slug for the taxonomy will redirect to your default recipe list."
+msgstr ""
+
+#: includes/settings/widget-options.php:20
+msgid "Widget Settings"
+msgstr "Widget-innstillinger"
+
+#: includes/settings/widget-options.php:24
+msgid "Default Items to Display"
+msgstr "Antall oppskrifter som vises"
+
+#: includes/settings/widget-options.php:31
+msgid "Default for new widgets."
+msgstr "Standard antall oppskrifter som vises i nye widgeter"
+
+#: includes/settings/widget-options.php:35
+msgid "Default List Widget Type"
+msgstr "Standard sorteringstype"
+
+#: includes/settings/widget-options.php:44
+#: includes/settings/widget-options.php:54
+#: includes/settings/widget-options.php:66
+msgid "Default link target when adding a new widget."
+msgstr "Standard lenkemål for nye widgeter."
+
+#: includes/settings/widget-options.php:48
+msgid "Default List Widget Sort"
+msgstr "Standard sorteringsrekkefølge"
+
+#: includes/settings/widget-options.php:59
+msgid "Default Link Target"
+msgstr "Standard lenkemål"
+
+#: includes/settings/widget-options.php:71
+msgid "Show Icons?"
+msgstr "Vis ikoner?"
+
+#: includes/settings/widget-options.php:74
+msgid "Check this option to show icons in widgets by default, can be turned of individually in each widget instance."
+msgstr "Huk av for å vise ikoner i widgeter som standard. Kan slås av individuelt."
+
+#: includes/settings/widget-options.php:79
+msgid "Widget Icon Size"
+msgstr "Widget ikonstørrelse"
+
+#: includes/settings/widget-options.php:82
+msgid "Default icon size for widgets, can be changed in each widget instance."
+msgstr "Standard ikonstørrelse for widgeter. Kan endret individuelt."
+
+#: includes/settings/recipe-options.php:27
+msgid "Recipe Options"
+msgstr "Oppskriftalternativer"
+
+#: includes/settings/recipe-options.php:32
+msgid "Index Slug"
+msgstr ""
+
+#: includes/settings/recipe-options.php:35
+msgid "This will be used as the slug (URL) for the recipe index pages."
+msgstr ""
+
+#: includes/settings/recipe-options.php:42
+msgid "Use plugin permalinks?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:45
+msgid "Wordpress 3.1+ has a feature to list recipes on an index page. If you prefer to use your own permalink structure, check this box and the plugin will use the settings below."
+msgstr ""
+
+#: includes/settings/recipe-options.php:51
+msgid "Identifier"
+msgstr ""
+
+#: includes/settings/recipe-options.php:54
+msgid "This will be used in the permalink structure to identify the custom type for recipes."
+msgstr ""
+
+#: includes/settings/recipe-options.php:58
+msgid "Permalink Structure:"
+msgstr ""
+
+#: includes/settings/recipe-options.php:67
+msgid "Plural name to use in the menus for this plugin."
+msgstr ""
+
+#: includes/settings/recipe-options.php:74
+msgid "Singular name to use in the menus for this plugin."
+msgstr ""
+
+#: includes/settings/recipe-options.php:79
+#, fuzzy
+msgid "Use Taxonomies?"
+msgstr "Bruk tidsforbruk?"
+
+#: includes/settings/recipe-options.php:82
+#, fuzzy
+msgid "Click this option to include the Taxonomies feature."
+msgstr "Huk av for å aktivere kommentering."
+
+#: includes/settings/recipe-options.php:84
+msgid "Manage Taxonomies"
+msgstr ""
+
+#: includes/settings/recipe-options.php:88
+msgid "Use Servings?"
+msgstr "Bruk porsjoner?"
+
+#: includes/settings/recipe-options.php:91
+msgid "Click this option to include the servings feature."
+msgstr "Huk av for å aktivere porsjoner."
+
+#: includes/settings/recipe-options.php:93
+msgid "Use Times?"
+msgstr "Bruk tidsforbruk?"
+
+#: includes/settings/recipe-options.php:96
+msgid "Click this option to include the prep and cook time feature."
+msgstr "Huk av for å aktivere tilberedelsestid og koketid."
+
+#: includes/settings/recipe-options.php:100
+msgid "Use Thumbnails?"
+msgstr "Bruk miniatyrbilder?"
+
+#: includes/settings/recipe-options.php:103
+msgid "Click this option to include the thumbnails feature."
+msgstr "Huk av for å aktivere miniatyrbilder."
+
+#: includes/settings/recipe-options.php:105
+msgid "Use Featured?"
+msgstr "Bruk utvalgte?"
+
+#: includes/settings/recipe-options.php:108
+msgid "Click this option to include the featured recipes feature."
+msgstr "Huk av for å aktivere utvalgte oppskrifter."
+
+#: includes/settings/recipe-options.php:112
+msgid "Use Comments?"
+msgstr "Bruk kommentarer?"
+
+#: includes/settings/recipe-options.php:115
+msgid "Click this option to include the comments feature."
+msgstr "Huk av for å aktivere kommentering."
+
+#: includes/settings/recipe-options.php:117
+msgid "Use Trackbacks?"
+msgstr "Bruk tilbaketråkk?"
+
+#: includes/settings/recipe-options.php:120
+msgid "Click this option to include the trackback feature."
+msgstr "Huk av for å aktivere tilbaketråkk."
+
+#: includes/settings/recipe-options.php:124
+msgid "Use Custom Fields?"
+msgstr "Bruk tilpassede felter?"
+
+#: includes/settings/recipe-options.php:127
+msgid "Click this option to include the custom fields feature."
+msgstr "Huk av for å aktivere tilpassede felter."
+
+#: includes/settings/recipe-options.php:129
+msgid "Use Revisions?"
+msgstr "Bruk revisjoner?"
+
+#: includes/settings/recipe-options.php:132
+msgid "Click this option to include the revisions feature."
+msgstr "Huk av for å aktivere revisjoner."
+
+#: includes/settings/recipe-options.php:137
+msgid "Use Nutritional Value?"
+msgstr ""
+
+#: includes/settings/recipe-options.php:140
+#, fuzzy
+msgid "Click this option to include the nutritional value feature."
+msgstr "Huk av for å aktivere type retter."
+
+#: includes/settings/recipe-options.php:143
+msgid "These two use the built in category and post tags used in standard posts."
+msgstr "Disse alternativene bruker de innebyggede funksjonene for kategorier og stikkord."
+
+#: includes/settings/recipe-options.php:146
+msgid "Use Post Categories?"
+msgstr "Bruk innleggskategorier?"
+
+#: includes/settings/recipe-options.php:149
+msgid "Click this option to include the post categories feature."
+msgstr "Huk av for å aktivere innleggskategorier."
+
+#: includes/settings/recipe-options.php:151
+msgid "Use Post Tags?"
+msgstr "Bruk innleggsstikkord?"
+
+#: includes/settings/recipe-options.php:154
+msgid "Click this option to include the post tags feature."
+msgstr "Huk av for å aktivere innleggsstikkord."
+
+#: includes/settings/recipe-options.php:163
+#, fuzzy
+msgid "Permalink Instructions"
+msgstr "Framgangsmåte"
+
+#: includes/settings/recipe-options.php:167
+msgid "The permalink structure will be used to create the custom URL structure for your individual recipes. These follow WP's normal %1$s, but must also include the content type %2$s and at least one of these unique tags: %3$s or %4$s."
+msgstr ""
+
+#: includes/settings/recipe-options.php:168
+msgid "permalink tags"
+msgstr ""
+
+#: includes/settings/recipe-options.php:176
+msgid "Allowed tags: "
+msgstr ""
+
+#: includes/settings/recipe-options.php:181
+msgid "For complete instructions on how to set up your permaliks, visit the %1$s."
+msgstr ""
+
+#: includes/settings/recipe-options.php:182
+msgid "Documentation Page"
+msgstr ""
+
+#: includes/settings/box-options.php:20
+#, fuzzy
+msgid "Recipe Box Options"
+msgstr "Oppskriftalternativer"
+
+#: includes/settings/box-options.php:25
+#, fuzzy
+msgid "Recipe Box is"
+msgstr "Oppskriftsnotater"
+
+#: includes/settings/box-options.php:27
+msgid "Enabled"
+msgstr ""
+
+#: includes/settings/box-options.php:28
+msgid "Disabled"
+msgstr ""
+
+#: includes/settings/box-options.php:35
+msgid "This slug will be used to create the URL for the recipe box option."
+msgstr ""
+
+#: includes/settings/box-options.php:40
+#, fuzzy
+msgid "Recipe Box Page"
+msgstr "Oppskriftsliste-side"
+
+#: includes/settings/box-options.php:42
+msgid "None Selected"
+msgstr ""
+
+#: includes/settings/box-options.php:43
+msgid "Select a page to display the Recipe Box on if there is no template file for it. You must include the [%1$s] shortcode on this page."
+msgstr ""
+
+#: includes/settings/box-options.php:47
+#, fuzzy
+msgid "Box Title"
+msgstr "Tittel"
+
+#: includes/settings/box-options.php:50
+msgid "This will be displayed at the top right of the recipe box."
+msgstr ""
+
+#: includes/settings/box-options.php:54
+#, fuzzy
+msgid "Add to box link"
+msgstr "Legg til meny"
+
+#: includes/settings/box-options.php:57
+msgid "The title to use in the recipe controls to add a recipe to the Recipe Box."
+msgstr ""
+
+#: includes/settings/box-options.php:61
+msgid "View box link"
+msgstr ""
+
+#: includes/settings/box-options.php:64
+msgid "The title to use for the link to the View Recipe Box."
+msgstr ""
+
+#: includes/settings/image-options.php:20
+#, fuzzy
+msgid "Image Options"
+msgstr "Oppskriftalternativer"
+
+#: includes/settings/image-options.php:27
+msgid "This page allows you to manage the built in image sizes used for recipes. Image sizes lised below will be prefixed with \"%1$s\" when they are registered with WordPress."
+msgstr ""
+
+#: includes/settings/image-options.php:30
+msgid "Please note that you will not be able to change the name or slug for the built in sizes."
+msgstr ""
+
+#: includes/settings/image-options.php:33
+msgid "Warning"
+msgstr ""
+
+#: includes/settings/image-options.php:35
+msgid "If you change the sizes of the images on this page, your existing images will not automatically be resized. I suggest using the %1$s plugin by %2$s which will recreate all the image sizes. This only needs to be done if you change these image sizes."
+msgstr ""
+
+#: includes/settings/image-options.php:36
+#, fuzzy
+msgid "Regenerate Thumbnails"
+msgstr "Bruk miniatyrbilder?"
+
+#: includes/settings/image-options.php:44
+#, fuzzy
+msgid "Image Name"
+msgstr "Kategorinavn"
+
+#: includes/settings/image-options.php:45
+msgid "Slug"
+msgstr ""
+
+#: includes/settings/image-options.php:46
+msgid "Width"
+msgstr ""
+
+#: includes/settings/image-options.php:47
+msgid "Height"
+msgstr ""
+
+#: includes/settings/image-options.php:48
+msgid "Mode"
+msgstr ""
+
+#: includes/settings/image-options.php:74
+msgid "Hard Crop"
+msgstr ""
+
+#: includes/settings/image-options.php:75
+msgid "Proportional"
+msgstr ""
+
+#: includes/settings/administration-options.php:25
+msgid "Reset to default: "
+msgstr ""
+
+#: includes/settings/administration-options.php:30
+#, fuzzy
+msgid "Remove Recipes: "
+msgstr "Konverter oppskrifter?"
+
+#: includes/settings/administration-options.php:32
+#, fuzzy
+msgid "Pending only"
+msgstr "Venter på gjennomgang"
+
+#: includes/settings/administration-options.php:33
+#, fuzzy
+msgid "All Recipes"
+msgstr "Oppskrift"
+
+#: includes/settings/administration-options.php:39
+msgid "Remove %1$s: "
+msgstr ""
+
+#: includes/settings/administration-options.php:41
+msgid "Empty %1$s"
+msgstr ""
+
+#: includes/settings/administration-options.php:48
+msgid "Remove Recipe Sizes: "
+msgstr ""
+
+#: includes/settings/administration-options.php:50
+msgid "Empty Sizes"
+msgstr ""
+
+#: includes/settings/administration-options.php:55
+msgid "Remove Recipe Servings: "
+msgstr ""
+
+#: includes/settings/administration-options.php:57
+msgid "Empty Serving Sizes"
+msgstr ""
+
+#: includes/settings/administration-options.php:61
+#, fuzzy
+msgid "Remove Recipe Ingredients: "
+msgstr "Slett ingrediens"
+
+#: includes/settings/administration-options.php:63
+#, fuzzy
+msgid "Empty Ingredients"
+msgstr "Ingredienser"
+
+#: includes/settings/administration-options.php:68
+#, fuzzy
+msgid "Back-up Options: "
+msgstr "Oppskriftalternativer"
+
+#: includes/settings/administration-options.php:72
+#, fuzzy
+msgid "Restore Options: "
+msgstr "Oppskriftalternativer"
+
+#: includes/settings/display-options.php:26
+msgid "Display in menu after"
+msgstr ""
+
+#: includes/settings/display-options.php:35
+msgid "Select where in the WordPress menu you want the Recipes menu to appear."
+msgstr ""
+
+#: includes/settings/display-options.php:39
+#, fuzzy
+msgid "Add recipes to author lists?"
+msgstr "Legg til oppskrifter til innleggsstrøm"
+
+#: includes/settings/display-options.php:42
+#, fuzzy
+msgid "Click this option to include the recipes by each author in their respective post list."
+msgstr "Huk av for å aktivere oppskriftskategorier"
+
+#: includes/settings/display-options.php:46
+msgid "Default Excerpt Length"
+msgstr "Standard lengde på utdrag"
+
+#: includes/settings/display-options.php:49
+msgid "Default length of introduction excerpt when displaying in lists."
+msgstr "Standard lengde på utdraget som vises i lister."
+
+#: includes/settings/display-options.php:53
+#, fuzzy
+msgid "Recipes to display"
+msgstr "Oppskriftskategorier"
+
+#: includes/settings/display-options.php:56
+msgid "Use default reading setting."
+msgstr ""
+
+#: includes/settings/display-options.php:62
+msgid "How many recipes to display per page on the listing pages."
+msgstr ""
+
+#: includes/settings/display-options.php:66
+#, fuzzy
+msgid "Recipes Sort Field"
+msgstr "Påkrevde skjemafelter"
+
+#: includes/settings/display-options.php:71
+#, fuzzy
+msgid "Random"
+msgstr "Tilfeldig rekkefølge"
+
+#: includes/settings/display-options.php:72
+#, fuzzy
+msgid "Comment Count"
+msgstr "Konvertere kommentarer?"
+
+#: includes/settings/display-options.php:73
+#, fuzzy
+msgid "Menu Order"
+msgstr "Tilfeldig rekkefølge"
+
+#: includes/settings/display-options.php:80
+msgid "The listing order of recipes on the index page."
+msgstr ""
+
+#: includes/settings/display-options.php:84
+msgid "Use Plugin CSS?"
+msgstr "Bruk innstikkets CSS?"
+
+#: includes/settings/display-options.php:87
+msgid "Click this option to include the CSS from the plugin."
+msgstr "Huk av for å bruke innstikkets CSS-filer."
+
+#: includes/settings/display-options.php:91
+msgid "Disable Content Filtering?"
+msgstr ""
+
+#: includes/settings/display-options.php:94
+msgid "Click this option to completely disable any content filtering. Warning! Only do this if you have created template files and are having an issue with template display."
+msgstr ""
+
+#: includes/settings/display-options.php:98
+#, fuzzy
+msgid "Default time display"
+msgstr "Antall oppskrifter som vises"
+
+#: includes/settings/display-options.php:101
+msgid "Single Line"
+msgstr ""
+
+#: includes/settings/display-options.php:102
+msgid "Two Line"
+msgstr ""
+
+#: includes/settings/display-options.php:107
+msgid "\"Hours\" Text"
+msgstr "&laquo;Timer&raquo;-tekst"
+
+#: includes/settings/display-options.php:110
+#: includes/settings/display-options.php:117
+msgid "This is the text that will be used in the ready time box if more than 60 minutes is required. Leave as a singular word."
+msgstr "Tekst som vises under tilberedelsestid dersom den overstiger 60 minutter. Bruk entall."
+
+#: includes/settings/display-options.php:114
+msgid "\"Minutes\" Text"
+msgstr "&laquo;Minutter&raquo;-tekst"
+
+#: includes/settings/form-options.php:20
+msgid "Recipe Form Settings"
+msgstr "Skjemainnstillinger"
+
+#: includes/settings/form-options.php:26
+msgid "Important Notice"
+msgstr ""
+
+#: includes/settings/form-options.php:27
+msgid "To display the recipe form, add the %1$s short code to any page or post. You must do this on the page you selected below for the form to display."
+msgstr ""
+
+#: includes/settings/form-options.php:31
+#, fuzzy
+msgid "Default form page"
+msgstr "Standard antall oppskrifter som vises i nye widgeter"
+
+#: includes/settings/form-options.php:34
+msgid "If a page is selected, all links to the submit form created by the plugin will direct to this page. The form will not automatically be added to this page."
+msgstr ""
+
+#: includes/settings/form-options.php:38
+#, fuzzy
+msgid "Redirect Page"
+msgstr "Oppskriftsliste-side"
+
+#: includes/settings/form-options.php:40
+msgid "Home Page"
+msgstr ""
+
+#: includes/settings/form-options.php:41
+msgid "What page to redirect a visitor to after a recipe has been submitted successfully."
+msgstr ""
+
+#: includes/settings/form-options.php:45
+#, fuzzy
+msgid "Use public submit form?"
+msgstr "Legg til lenke til skjema?"
+
+#: includes/settings/form-options.php:48
+msgid "If checked, allows users to submit recipes from the front end."
+msgstr ""
+
+#: includes/settings/form-options.php:52
+msgid "Require login for submit?"
+msgstr ""
+
+#: includes/settings/form-options.php:55
+msgid "If checked, users must log in to submit a recipe."
+msgstr ""
+
+#: includes/settings/form-options.php:70
+msgid "Number of ingredients fields on blank form"
+msgstr "Antall ingredienser i tomt skjema"
+
+#: includes/settings/form-options.php:73
+msgid "How many initial ingredients input lines to display on a blank form."
+msgstr "Antall felter med ingredienser som initielt vises i et tomt skjema."
+
+#: includes/settings/form-options.php:77
+msgid "Required Form Fields"
+msgstr "Påkrevde skjemafelter"
+
+#: includes/settings/form-options.php:83
+#: includes/ingredient-form.php:59
+#: includes/ingredient-form.php:149
+msgid "Notes"
+msgstr "Notater"
+
+#: includes/settings/form-options.php:93
+#: includes/settings/form-options.php:94
+msgid "Only displayed when a user is not logged in"
+msgstr "Vises kun når brukeren ikke er logget på"
+
+#: includes/settings/form-options.php:104
+msgid "reCaptcha Settings"
+msgstr "reCaptcha-innstillinger"
+
+#: includes/settings/form-options.php:106
+msgid "To use reCaptcha on the public form, enter your public and private keys here."
+msgstr "For å bruke reCaptcha på det offentlige skjemaet, skriv inn en offentlig og en privat nøkkel."
+
+#: includes/settings/form-options.php:107
+msgid "Get Keys"
+msgstr "Hent nøkler"
+
+#: includes/settings/form-options.php:111
+msgid "Force for All Users?"
+msgstr "Tving for alle brukere?"
+
+#: includes/settings/form-options.php:114
+msgid "If checked, logged in users will see the reCaptcha."
+msgstr "Alle brukere, selv de som er pålogget, for reCaptcha-testen."
+
+#: includes/settings/form-options.php:118
+msgid "Public Key"
+msgstr "Offentlig nøkkel"
+
+#: includes/settings/form-options.php:122
+msgid "Private Key"
+msgstr "Privat nøkkel"
+
+#: includes/taxonomy_tags.php:400
+#, fuzzy
+msgid "<span class=\"meta-nav\">&larr;</span> Previous %1$s"
+msgstr "<span class=\"meta-nav\">&larr;</span> Eldre oppskrifter"
+
+#: includes/taxonomy_tags.php:419
+#, fuzzy
+msgid "Next %1$s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyere oppskrifter <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/details-form.php:29
+#: includes/ingredient-form.php:50
+#: includes/ingredient-form.php:108
+#, fuzzy
+msgid "No Size"
+msgstr "Størrelse"
+
+#: includes/details-form.php:59
+msgid "Ready in"
+msgstr "Ferdig på"
+
+#: includes/details-form.php:68
+msgid "Featured?"
+msgstr "Utvalgt?"
+
+#: includes/details-form.php:76
+#, fuzzy
+msgid "Link ingredients?"
+msgstr "Ingredienser"
+
+#: includes/details-form.php:78
+msgid "Check this box if you want your ingredients without page or URL links to link to a list of recipes with that ingredient."
+msgstr ""
+
+#: includes/recipe_box_tags.php:120
+#, fuzzy
+msgid "Search Recipe Box"
+msgstr "Søk oppskrift"
+
+#: includes/recipe_box_tags.php:289
+#, fuzzy
+msgid "No notes"
+msgstr "Notater"
+
+#: includes/recipe_box_tags.php:292
+#, fuzzy
+msgid "Save Notes"
+msgstr "Notater"
+
+#: includes/recipe_box_tags.php:293
+msgid "Cancel"
+msgstr ""
+
+#: includes/nutrients-form.php:37
+msgid "Amount Per Serving"
+msgstr ""
+
+#: includes/converter.php:19
+msgid "Converting Old Recipes"
+msgstr "Konverterer gamle oppskrifter"
+
+#: includes/converter.php:28
+msgid "Converting %1$d categories"
+msgstr "Konverterer %1$d kategorier"
+
+#: includes/converter.php:43
+msgid "Converting %1$d recipes"
+msgstr "Konverterer %1$d oppskrifter"
+
+#: includes/converter.php:93
+msgid "Converting %1$d comments"
+msgstr "Konverterer %1$d kommentarer"
+
+#: includes/ingredient-form.php:33
+msgid "Quantity"
+msgstr "Antall"
+
+#: includes/ingredient-form.php:38
+msgid "Link to page"
+msgstr "Lenke til side"
+
+#: includes/ingredient-form.php:45
+#: includes/ingredient-form.php:83
+msgid "Drag Ingredient"
+msgstr "Dra ingrediens"
+
+#: includes/ingredient-form.php:46
+#: includes/ingredient-form.php:84
+msgid "Delete Ingredient"
+msgstr "Slett ingrediens"
+
+#: includes/ingredient-form.php:68
+#: includes/ingredient-form.php:161
+msgid "URL"
+msgstr ""
+
+#: includes/ingredient-form.php:178
+msgid "Add Divider"
+msgstr "Legg til skillelinje"
+
+#: includes/form_tags.php:173
+msgid "No size"
+msgstr ""
+
+#: includes/form_tags.php:212
+msgid "Missing required field: %1$s"
+msgstr "Påkrevet felt mangler: %1$s"
+
+#: includes/form_tags.php:251
+msgid "Please enter the words above."
+msgstr "Skriv inn ordene ovenfor."
+
+#: includes/form_tags.php:254
+msgid "Thank you for entering valid captcha text."
+msgstr "Teksten er valid."
+
+#: includes/form_tags.php:266
+msgid "Submit Recipe"
+msgstr "Legg inn oppskrift"
+
+#: includes/footer.php:23
+msgid "Thank you for trying the %1$s plugin - I hope you find it useful. For the latest updates on this plugin, vist the %2$s."
+msgstr "Takk for at du bruker %1$s. Håper du er fornøyd med det. For siste nyheter om innstikket, se %2$s."
+
+#: includes/footer.php:25
+msgid "official site"
+msgstr "den offisielle nettsiden"
+
+#: includes/footer.php:29
+#, fuzzy
+msgid "If you have questions about this plugin, please use our %1$s and take a look at our %2$s."
+msgstr "Har du spørsmål om innstikket, besøk %1$s."
+
+#: includes/footer.php:30
+msgid "Support Forum"
+msgstr "brukerforumet"
+
+#: includes/footer.php:31
+msgid "Documentation Project"
+msgstr ""
+
+#: includes/footer.php:36
+msgid "Please report bugs on the %1$s page."
+msgstr "Rapporter feil på %1$s-siden."
+
+#: includes/footer.php:37
+msgid "Bug Tracking"
+msgstr "bug tracking"
+
+#: includes/footer.php:42
+msgid "This plugin is &copy; %1$s by %2$s and is released under the %3$s"
+msgstr "Dette innstikket er &copy; %1$s av %2$s og er lisensiert under %3$s"
+
+#: includes/footer.php:45
+msgid "GNU General Public License"
+msgstr "GNU General Public License"
+
+#: includes/footer.php:51
+msgid "Donate"
+msgstr "Doner"
+
+#: includes/footer.php:54
+msgid "If you find this plugin useful, please consider supporting this and our other great %1$s."
+msgstr "Er du fornøyd med innstikket kan du støtte det og andre nyttige %1$s."
+
+#: includes/footer.php:54
+msgid "plugins"
+msgstr "innstikk"
+
+#: includes/footer.php:55
+msgid "Donate a few bucks!"
+msgstr "Doner noen kroner!"
+
+#: includes/convert.php:21
+msgid "Convert Old Recipes"
+msgstr "Konverter gamle oppskrifter"
+
+#: includes/convert.php:25
+msgid "Conversion Options"
+msgstr "Konverteringsalternativer"
+
+#: includes/convert.php:30
+msgid "I have detected that you have convertd an older version of %1$s at some time. The old recipes and other items are still present in the system. Would you like to convert them?"
+msgstr "En eldre versjon av %1$s har tidligere blitt konvertert. Eldre oppskrifter og andre objekter er fortsatt lagret i systemet. Vil du konvertere dem nå?"
+
+#: includes/convert.php:33
+msgid "Convert Recipes?"
+msgstr "Konverter oppskrifter?"
+
+#: includes/convert.php:36
+msgid "Click this option to convert all existing recipes."
+msgstr "Klikk her for å konvertere alle eksisterende oppskrifter."
+
+#: includes/convert.php:38
+msgid "Convert Categories?"
+msgstr "Konverterer kategorier?"
+
+#: includes/convert.php:41
+msgid "Click this option to convert your old recipe categories."
+msgstr "Klikk her for å konvertere dine gamle oppskriftkategorier."
+
+#: includes/convert.php:45
+msgid "Convert Comments?"
+msgstr "Konvertere kommentarer?"
+
+#: includes/convert.php:48
+msgid "Click this option to convert all existing recipe comments."
+msgstr "Klikk her for å konvertere alle eksisterende oppskriftkommentarer."
+
+#: includes/convert.php:52
+msgid "Notce: Running this conversion script will copy the data from the old install and remove all old data. Please make a backup of your old data before running this conversion."
+msgstr "Advarsel: Alle dine gamle data vil bli kopiert, og gamle data vil bli slettet. Husk å ta sikkerhetskopi før du starter konverteringen."
+
+#: includes/convert.php:57
+msgid "Start Conversion"
+msgstr "Start konvertering"
+
+#. Plugin URI of the plugin/theme
+msgid "http://recipepress.net"
+msgstr "http://recipepress.net"
+
+#. Description of the plugin/theme
+msgid "Turn your Wordpress site into a full fledged recipe sharing system. Allow users to submit recipes, organize recipes in hierarchal categories, make comments, and embed recipes in posts and pages."
+msgstr "Forvandle din Wordpress-side til et fullverdig system for deling av oppskrifter. Gi brukere tilgang til å legge til, organisere oppskrifter i kategorier, kommentere og flette inn oppskrifter i bloggposter og sider."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "grandslambert"
+msgstr "GrandSlambert"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "http://grandslambert.com/"
+msgstr "http://wordpress.grandslambert.com"
+
+#~ msgid ""
+#~ "Checking this box will create a new page for this ingredient. Are you "
+#~ "sure you want to do this?"
+#~ msgstr "Huk av for å lage en ny side for ingrediensen. Er du sikker?"
+#~ msgid "New page?"
+#~ msgstr "Ny side?"
+#~ msgid "Add New Recipe"
+#~ msgstr "Legg til ny oppskrift"
+#~ msgid "New Recipe"
+#~ msgstr "Ny oppskrift"
+#~ msgid "View Recipe"
+#~ msgstr "Vis oppskrift"
+#~ msgid "Search By Category"
+#~ msgstr "Søk i kategori"
+#~ msgid "Edit Category"
+#~ msgstr "Rediger kategorier"
+#~ msgid "Update Category"
+#~ msgstr "Oppdater kategorier"
+#~ msgid "Add Category"
+#~ msgstr "Legg til kategorier"
+#~ msgid "New Category"
+#~ msgstr "Ny kategori"
+#~ msgid "Search By Cuisine"
+#~ msgstr "Søk i type retter"
+#~ msgid "Edit Cuisine"
+#~ msgstr "Rediger type rett"
+#~ msgid "Add Cuisine"
+#~ msgstr "Legg til type rett"
+#~ msgid "New Cuisine"
+#~ msgstr "Ny type rett"
+#~ msgid "Please save your menu changes before adding these menu options."
+#~ msgstr "Lagre menyendringene før du legger til disse menyalternativene."
+#~ msgid "Recipe Cuisines"
+#~ msgstr "Type retter"
+#~ msgid "Submit Form"
+#~ msgstr "Skjema"
+#~ msgid "Use Cuisines?"
+#~ msgstr "Bruk type retter?"
+#~ msgid ""
+#~ "Click this option to include your recipes within the blog posts pages and "
+#~ "RSS feeds."
+#~ msgstr ""
+#~ "Huk av for å legge til oppskrifter sammen med ordinære bloggposter og i "
+#~ "bloggens RSS-feed."
+#~ msgid "Standard"
+#~ msgstr "Imperisk"
+#~ msgid "Metric"
+#~ msgstr "Metrisk"
+#~ msgid "Post Title Prefix"
+#~ msgstr "Tekst før tittel"
+#~ msgid ""
+#~ "Text to be added before the recipe title when displaying in the "
+#~ "\"the_title()\" template tag."
+#~ msgstr ""
+#~ "Tekst som legges til før oppskriftstittelen når &laquo;the_title()&raquo;-"
+#~ "maltaggen vises."
+#~ msgid "Add Recipe Redirect"
+#~ msgstr "Omdirigering"
+#~ msgid ""
+#~ "Note: This will be the page a user is redirected to when they "
+#~ "successfully submit a recipe."
+#~ msgstr ""
+#~ "Siden brukeren omdirigeres til når skjemaet med oppskriften er fylt ut."
+#~ msgid "Where to add the form"
+#~ msgstr "Hvor skal skjemaet legges til"
+#~ msgid "Before the Content"
+#~ msgstr "Før innholdet"
+#~ msgid "After the Content"
+#~ msgstr "Etter innholdet"
+#~ msgid "Replace all Content with Form"
+#~ msgstr "Erstatt alt innhold meg skjemaet"
+#~ msgid "User Submit Link Title"
+#~ msgstr "Skjemaets lenketittel"
+#~ msgid "Used in the widgets when adding a link to the submit form."
+#~ msgstr "Brukes i widgeter som lenketekst til skjemaet."
+#~ msgid "Redently Updated"
+#~ msgstr "Sist oppdaterte"
+#~ msgid "Management Settings"
+#~ msgstr "Administrasjonsinnstillinger"
+#~ msgid "Remove Data on Deactivate?"
+#~ msgstr "Fjerne data ved deaktivering?"
+#~ msgid ""
+#~ "Warning: If you deactivate the plugin while this option is checked, all "
+#~ "data and options will be removed from the database. Make sure you backup "
+#~ "your data before you deactivate the plugin as there is no way to recover "
+#~ "from this operation. Are you sure you want to do this?"
+#~ msgstr ""
+#~ "Advarsel: Deaktiverer du innstikket mens dette alternativet er slått på, "
+#~ "vil alle dataene i databasen bli slettet. Sørg for at du har "
+#~ "sikkerhetskopi av dataene før du deaktiverer innstikket. Er du helt "
+#~ "sikker på at du ønsker dette?"
+#~ msgid ""
+#~ "By checking this box, all data and options will be removed when the "
+#~ "plugin is deactivated."
+#~ msgstr ""
+#~ "Ved å huke av for dette valget, vil alle data bli slettet når innstikket "
+#~ "deaktiveres."
+#~ msgid "Ready In"
+#~ msgstr "Ferdig på"
+#~ msgid "Submit A Recipe"
+#~ msgstr "Legg inn en oppskrift"
+#~ msgid "in"
+#~ msgstr "i"
+#~ msgid "Cuisine Types: "
+#~ msgstr "Type retter:"
+#~ msgid "Recipe Cuisines Types"
+#~ msgstr "Type retter"
+

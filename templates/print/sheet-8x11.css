@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* Recipe Press CSS Document */
+
+/**
+ * You can create a file named recipe-press.css or you can copy this file to your theme folder and make changes.
+ * BOTH your custom file and the file included with the plugin will be added to the HTML code for your site
+ * if you enable the Custom CSS option in th plugin settings page.
+*/
+
+div.card-size {
+     width: 612px;
+     height: 792px;
+     display: none;
+}
+
+div.sheet-8x11 {
+     border: dashed 1px #ddd;
+     padding: 19px 20px 0px 13px;
+     overflow: hidden;
+     color: #333 !important;
+}
+
+.sheet-8x11 .recipe-about {
+     float: left;
+     width: 368px;
+}
+
+.sheet-8x11 .recipe-detail {
+     font-size: 12px;
+}
+
+.sheet-8x11 .recipe-press-image {
+     float: right;
+     padding: 0;
+     margin: 0;
+}
+
+.sheet-8x11 .recipe-section-title {
+     margin: 0;
+     padding: 0;
+}
+
+.sheet-8x11 .recipe-content {
+     border: none;
+}
+
+.sheet-8x11 .recipe-ingredients {
+     font-size: 14px;
+}
+
+.sheet-8x11 .recipe-instructions {
+     font-size: 14px;
+}
